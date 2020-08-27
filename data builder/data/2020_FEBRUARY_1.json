@@ -1,0 +1,1859 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580605798000",
+        "endTimestampMs" : "1580673394999"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 336534250,
+      "centerLngE7" : -1178391050
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336527491,
+        "longitudeE7" : -1178403614
+      },
+      "endLocation" : {
+        "latitudeE7" : 337157824,
+        "longitudeE7" : -1179734937
+      },
+      "duration" : {
+        "startTimestampMs" : "1580673394999",
+        "endTimestampMs" : "1580674188999"
+      },
+      "distance" : 12162,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 94.68967318534851
+      }, {
+        "activityType" : "STILL",
+        "probability" : 3.849130868911743
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5602957215160131
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.45821997337043285
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.15161443734541535
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.12422187719494104
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.06537451408803463
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.052038306603208184
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.026532524498179555
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.010920783824985847
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00590135641687084
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0038345384382409975
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0011470327990537044
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.001052986590366345
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.176976974827994E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336527709,
+          "lngE7" : -1178403396
+        }, {
+          "latE7" : 337089271,
+          "lngE7" : -1179585266
+        }, {
+          "latE7" : 337158584,
+          "lngE7" : -1179734954
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337151927,
+        "longitudeE7" : -1179738883,
+        "placeId" : "ChIJyeQjDP0m3YARvsPr-Zf48uc",
+        "address" : "8876 Warner Ave #3200\nFountain Valley, CA 92708\nUSA",
+        "name" : "Pro Nails & Spa",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580674188999",
+        "endTimestampMs" : "1580674794997"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 337157850,
+      "centerLngE7" : -1179741250
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337157935,
+        "longitudeE7" : -1179747682
+      },
+      "endLocation" : {
+        "latitudeE7" : 337242177,
+        "longitudeE7" : -1179884695
+      },
+      "duration" : {
+        "startTimestampMs" : "1580674794997",
+        "endTimestampMs" : "1580675155999"
+      },
+      "distance" : 2119,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 86.51224374771118
+      }, {
+        "activityType" : "STILL",
+        "probability" : 11.850198358297348
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6602656096220016
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5811695940792561
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.22830141242593527
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.05127997137606144
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.04764067707583308
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.02565541653893888
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.01826866064220667
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01662218273850158
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.004188229650026187
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0024708828277653083
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0011833628377644345
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 4.8641923058312386E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.3909626634122105E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337158508,
+          "lngE7" : -1179747695
+        }, {
+          "latE7" : 337231063,
+          "lngE7" : -1179890899
+        }, {
+          "latE7" : 337242851,
+          "lngE7" : -1179886169
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337253310,
+        "longitudeE7" : -1179873913,
+        "placeId" : "ChIJ8fwLZFkm3YARzI9hCr3Y6oE",
+        "address" : "16422 Beach Blvd\nWestminster, CA 92683\nUSA",
+        "name" : "Pavilions Place",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580675155999",
+        "endTimestampMs" : "1580676860999"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 337244588,
+          "longitudeE7" : -1179883516,
+          "placeId" : "ChIJ3xfTRVkm3YARrl7Df7_9kwY",
+          "address" : "16468 Beach Blvd\nWestminster, CA 92683\nUSA",
+          "name" : "Daiso",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580675155999",
+          "endTimestampMs" : "1580676860999"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 337248350,
+        "centerLngE7" : -1179887600
+      } ],
+      "centerLatE7" : 337248350,
+      "centerLngE7" : -1179887600
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337254681,
+        "longitudeE7" : -1179890621
+      },
+      "endLocation" : {
+        "latitudeE7" : 337276564,
+        "longitudeE7" : -1179557011
+      },
+      "duration" : {
+        "startTimestampMs" : "1580676860999",
+        "endTimestampMs" : "1580677661729"
+      },
+      "distance" : 3762,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 89.94259834289551
+      }, {
+        "activityType" : "STILL",
+        "probability" : 9.040482342243195
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6841583643108606
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.1584705663844943
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.04797409346792847
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.03949720412492752
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.038041858351789415
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.018562059267424047
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.014483853010460734
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.010331212251912802
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.002116173527610954
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0013445378499454819
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0012607049029611517
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 6.775095243938267E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.090994268490249E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337254676,
+          "lngE7" : -1179890975
+        }, {
+          "latE7" : 337302894,
+          "lngE7" : -1179637832
+        }, {
+          "latE7" : 337277030,
+          "lngE7" : -1179557037
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337291317,
+        "longitudeE7" : -1179559054,
+        "placeId" : "ChIJX6ivQacn3YARN_7kw7EGsKw",
+        "address" : "Fountain Valley, CA 92708\nUSA",
+        "name" : "Fountain Valley Town Centre",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580677661729",
+        "endTimestampMs" : "1580680208000"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 337275250,
+          "longitudeE7" : -1179560740,
+          "placeId" : "ChIJ29lN2wkn3YARLKwgLel5KYw",
+          "address" : "16161 Brookhurst St\nFountain Valley, CA 92708\nUSA",
+          "name" : "The Vox Kitchen",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580677661729",
+          "endTimestampMs" : "1580680208000"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 337279600,
+        "centerLngE7" : -1179551450
+      } ],
+      "centerLatE7" : 337279600,
+      "centerLngE7" : -1179551450
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337282781,
+        "longitudeE7" : -1179545944
+      },
+      "endLocation" : {
+        "latitudeE7" : 337241897,
+        "longitudeE7" : -1179885532
+      },
+      "duration" : {
+        "startTimestampMs" : "1580680208000",
+        "endTimestampMs" : "1580680875998"
+      },
+      "distance" : 3648,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 89.5370602607727
+      }, {
+        "activityType" : "STILL",
+        "probability" : 9.232810884714127
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.8350465446710587
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.19123877864331007
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.057668116642162204
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.03876468981616199
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.03690259763970971
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.027534464607015252
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.023215319379232824
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.01302680466324091
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003109087992925197
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.001695707396720536
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0011838161299237981
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 7.38617563911248E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.3105380958222668E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337282791,
+          "lngE7" : -1179545440
+        }, {
+          "latE7" : 337304153,
+          "lngE7" : -1179637832
+        }, {
+          "latE7" : 337242279,
+          "lngE7" : -1179886169
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337253310,
+        "longitudeE7" : -1179873913,
+        "placeId" : "ChIJ8fwLZFkm3YARzI9hCr3Y6oE",
+        "address" : "16422 Beach Blvd\nWestminster, CA 92683\nUSA",
+        "name" : "Pavilions Place",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580680875998",
+        "endTimestampMs" : "1580688617066"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 337239908,
+          "longitudeE7" : -1179883750,
+          "placeId" : "ChIJpf02djwm3YARhNqOJWkp084",
+          "address" : "16484 Beach Blvd\nWestminster, CA 92683\nUSA",
+          "name" : "Tip Top Nails",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580680875998",
+          "endTimestampMs" : "1580688617066"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 337247900,
+        "centerLngE7" : -1179888000
+      } ],
+      "centerLatE7" : 337247900,
+      "centerLngE7" : -1179888000
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337254082,
+        "longitudeE7" : -1179890541
+      },
+      "endLocation" : {
+        "latitudeE7" : 336532173,
+        "longitudeE7" : -1178398439
+      },
+      "duration" : {
+        "startTimestampMs" : "1580688617066",
+        "endTimestampMs" : "1580689587092"
+      },
+      "distance" : 16563,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 96.12355828285217
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.8744738548994064
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5906018894165754
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.17320116749033332
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.05714962026104331
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.04703562590293586
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.045816018246114254
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.041444823727943
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.029402438667602837
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.009267070709029213
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003192387885064818
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0026721085305325687
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0011683515367622022
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.001003498437057715
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.1630610430302113E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337254066,
+          "lngE7" : -1179890975
+        }, {
+          "latE7" : 337112693,
+          "lngE7" : -1179616699
+        }, {
+          "latE7" : 336531944,
+          "lngE7" : -1178398132
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580689587092",
+        "endTimestampMs" : "1580761845275"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336534800,
+      "centerLngE7" : -1178392217
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336524297,
+        "longitudeE7" : -1178398825
+      },
+      "endLocation" : {
+        "latitudeE7" : 336508012,
+        "longitudeE7" : -1178393496
+      },
+      "duration" : {
+        "startTimestampMs" : "1580761845275",
+        "endTimestampMs" : "1580762025029"
+      },
+      "distance" : 187,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 79.51587438583374
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 8.311397582292557
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.199984669685364
+      }, {
+        "activityType" : "STILL",
+        "probability" : 3.891807049512863
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.6430876925587654
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.7356319576501846
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.3368776524439454
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.178235222119838
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.10330983204767108
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.04214869986753911
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.01932518498506397
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.016106301336549222
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0040523627831134945
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0012011169019388035
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.605645573174115E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336524200,
+          "lngE7" : -1178398590
+        }, {
+          "latE7" : 336516036,
+          "lngE7" : -1178392562
+        }, {
+          "latE7" : 336508140,
+          "lngE7" : -1178393630
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336503829,
+        "longitudeE7" : -1178390142,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580762025029",
+        "endTimestampMs" : "1580762501161"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336508170,
+          "longitudeE7" : -1178388130,
+          "placeId" : "ChIJqVKAXAze3IARa0-qRJsexus",
+          "address" : "4187 Campus Dr Suite M170\nIrvine, CA 92612\nUSA",
+          "name" : "FedEx Office Print & Ship Center",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580762025029",
+          "endTimestampMs" : "1580762501161"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 336505350,
+        "centerLngE7" : -1178391500
+      } ],
+      "centerLatE7" : 336505350,
+      "centerLngE7" : -1178391500
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336502725,
+        "longitudeE7" : -1178389686
+      },
+      "endLocation" : {
+        "latitudeE7" : 336450854,
+        "longitudeE7" : -1178413757
+      },
+      "duration" : {
+        "startTimestampMs" : "1580762501161",
+        "endTimestampMs" : "1580763139775"
+      },
+      "distance" : 642,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 70.64903378486633
+      }, {
+        "activityType" : "STILL",
+        "probability" : 18.73489022254944
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.480747297406197
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.409491688013077
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.9551252946257591
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.4990277346223593
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.10148304281756282
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.07574016344733536
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.04179694515187293
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.02358184865443036
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.012655292812269181
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.00867076450958848
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.005567362313740887
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0012336728104855865
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 9.502539796812925E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336502799,
+          "lngE7" : -1178390197
+        }, {
+          "latE7" : 336492080,
+          "lngE7" : -1178397827
+        }, {
+          "latE7" : 336451377,
+          "lngE7" : -1178414688
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336432551,
+        "longitudeE7" : -1178420085,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "address" : "Donald Bren Hall\nIrvine, CA 92617\nUSA",
+        "name" : "Donald Bren Hall",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580763139775",
+        "endTimestampMs" : "1580781747167"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336443617,
+      "centerLngE7" : -1178414167
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336442764,
+        "longitudeE7" : -1178410379
+      },
+      "endLocation" : {
+        "latitudeE7" : 336496489,
+        "longitudeE7" : -1178401988
+      },
+      "duration" : {
+        "startTimestampMs" : "1580781747167",
+        "endTimestampMs" : "1580782111105"
+      },
+      "distance" : 620,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 47.58713245391846
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 29.504895210266113
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.99242877960205
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.9218448102474213
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.815418317914009
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.3734244741499424
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4101485013961792
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.20206416957080364
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.10063457302749157
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.05949431797489524
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.015232655277941376
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.010551100422162563
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.003544682840583846
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0024276399926748127
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 7.576498319394886E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336443138,
+          "lngE7" : -1178410797
+        }, {
+          "latE7" : 336483039,
+          "lngE7" : -1178401260
+        }, {
+          "latE7" : 336496200,
+          "lngE7" : -1178402328
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336503829,
+        "longitudeE7" : -1178390142,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580782111105",
+        "endTimestampMs" : "1580782644635"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336496647,
+          "longitudeE7" : -1178398073,
+          "placeId" : "ChIJVRvzNQze3IARlsfGYNVfU-M",
+          "address" : "4127 Campus Dr\nIrvine, CA 92612\nUSA",
+          "name" : "Chick-fil-A",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580782111105",
+          "endTimestampMs" : "1580782644635"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 336498233,
+        "centerLngE7" : -1178395800
+      } ],
+      "centerLatE7" : 336498233,
+      "centerLngE7" : -1178395800
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336501905,
+        "longitudeE7" : -1178395312
+      },
+      "endLocation" : {
+        "latitudeE7" : 336532070,
+        "longitudeE7" : -1178389663
+      },
+      "duration" : {
+        "startTimestampMs" : "1580782644635",
+        "endTimestampMs" : "1580782945602"
+      },
+      "distance" : 388,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 52.644431591033936
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 18.979310989379883
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 12.465543299913406
+      }, {
+        "activityType" : "STILL",
+        "probability" : 11.04559451341629
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.408026695251465
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5344925448298454
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.36520548164844513
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.35094115883111954
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.14180713333189487
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.03752821066882461
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.008826574048725888
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.00765838340157643
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.007391140388790518
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0021995030692778528
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0010388841474195942
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336501655,
+          "lngE7" : -1178395233
+        }, {
+          "latE7" : 336516036,
+          "lngE7" : -1178392562
+        }, {
+          "latE7" : 336531906,
+          "lngE7" : -1178389511
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580782945602",
+        "endTimestampMs" : "1580840613011"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336533250,
+      "centerLngE7" : -1178390650
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534567,
+        "longitudeE7" : -1178391706
+      },
+      "endLocation" : {
+        "latitudeE7" : 336981615,
+        "longitudeE7" : -1178351781
+      },
+      "duration" : {
+        "startTimestampMs" : "1580840613011",
+        "endTimestampMs" : "1580841321000"
+      },
+      "distance" : 5323,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 48.92492890357971
+      }, {
+        "activityType" : "STILL",
+        "probability" : 48.52525293827057
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.7876602709293365
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.32743008341640234
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.218484946526587
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.11426630662754178
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.02599519502837211
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.025077257305383682
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02340522187296301
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.02036169171333313
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.002441377000650391
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.002099424455082044
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0014620605725212954
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.001107439038605662
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.1031328262542957E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336522750,
+          "lngE7" : -1178397827
+        }, {
+          "latE7" : 336772193,
+          "lngE7" : -1178312759
+        }, {
+          "latE7" : 336981925,
+          "lngE7" : -1178351440
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336977941,
+        "longitudeE7" : -1178354781,
+        "placeId" : "ChIJy9kfsqHe3IARVoKfcOBxg4s",
+        "address" : "16585 Von Karman Ave\nIrvine, CA 92606\nUSA",
+        "name" : "Von Karman Plaza",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580841321000",
+        "endTimestampMs" : "1580843640399"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336987729,
+          "longitudeE7" : -1178357213,
+          "placeId" : "ChIJReoT_qDe3IARWa7Rjl5gTHI",
+          "address" : "16555 Von Karman Ave a\nIrvine, CA 92606\nUSA",
+          "name" : "Walmart Supercenter",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580841321000",
+          "endTimestampMs" : "1580843488349"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336982667,
+        "centerLngE7" : -1178354200
+      } ],
+      "centerLatE7" : 336982667,
+      "centerLngE7" : -1178354200
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336971124,
+        "longitudeE7" : -1178353408
+      },
+      "endLocation" : {
+        "latitudeE7" : 336699385,
+        "longitudeE7" : -1178340986
+      },
+      "duration" : {
+        "startTimestampMs" : "1580843640399",
+        "endTimestampMs" : "1580844091001"
+      },
+      "distance" : 3200,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 92.1485424041748
+      }, {
+        "activityType" : "STILL",
+        "probability" : 6.315136700868607
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.7660554256290197
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4340908955782652
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.11672733817249537
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.10532524902373552
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.04660477861762047
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.021897901024203748
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.01990276068681851
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01527212152723223
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0031380921427626163
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.002923703141277656
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.002223240335297305
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0021200865376158617
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.334261862164567E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336971473,
+          "lngE7" : -1178353042
+        }, {
+          "latE7" : 336774024,
+          "lngE7" : -1178313827
+        }, {
+          "latE7" : 336699485,
+          "lngE7" : -1178341140
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336702930,
+        "longitudeE7" : -1178348880,
+        "placeId" : "ChIJt6Wx037e3IARz72THtfjdE0",
+        "address" : "3400 Michelson Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Synagogue",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580844091001",
+        "endTimestampMs" : "1580851852999"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336699385,
+      "centerLngE7" : -1178340986
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336971124,
+        "longitudeE7" : -1178353408
+      },
+      "endLocation" : {
+        "latitudeE7" : 336506224,
+        "longitudeE7" : -1178388786
+      },
+      "duration" : {
+        "startTimestampMs" : "1580851852999",
+        "endTimestampMs" : "1580852073999"
+      },
+      "distance" : 5375,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 66.45957231521606
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 16.07312560081482
+      }, {
+        "activityType" : "STILL",
+        "probability" : 14.587187767028809
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.931642297655344
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.8068220689892769
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7045543286949396
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.3104049479588866
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.057001085951924324
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.036407477455213666
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.016486438107676804
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.008792347216513008
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0034093671274604276
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0025454583010287024
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0018205431842943653
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.2636725134361768E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336516647,
+          "lngE7" : -1178398208
+        }, {
+          "latE7" : 336510391,
+          "lngE7" : -1178391723
+        }, {
+          "latE7" : 336506919,
+          "lngE7" : -1178391189
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336503829,
+        "longitudeE7" : -1178390142,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580852073999",
+        "endTimestampMs" : "1580852633494"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336494956,
+          "longitudeE7" : -1178386916,
+          "placeId" : "ChIJQS_2Owze3IAR8NCjB5o-8XE",
+          "address" : "4255 Campus Dr A150\nIrvine, CA 92612\nUSA",
+          "name" : "Target",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580852073999",
+          "endTimestampMs" : "1580852633494"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 336501600,
+        "centerLngE7" : -1178391300
+      } ],
+      "centerLatE7" : 336501600,
+      "centerLngE7" : -1178391300
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336497047,
+        "longitudeE7" : -1178393952
+      },
+      "endLocation" : {
+        "latitudeE7" : 336481857,
+        "longitudeE7" : -1178432346
+      },
+      "duration" : {
+        "startTimestampMs" : "1580852633494",
+        "endTimestampMs" : "1580852989506"
+      },
+      "distance" : 465,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 62.26160526275635
+      }, {
+        "activityType" : "STILL",
+        "probability" : 23.214414715766907
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.401034355163574
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.969132199883461
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.5859318897128105
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.27380241081118584
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.22976147010922432
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.023128280008677393
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.02094832598231733
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.011957520473515615
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0049087782826973125
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0017153844964923337
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0011731754057109356
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.9402253858279437E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.9264136881247396E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336496810,
+          "lngE7" : -1178393554
+        }, {
+          "latE7" : 336478271,
+          "lngE7" : -1178410110
+        }, {
+          "latE7" : 336481819,
+          "lngE7" : -1178432312
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580852989506",
+        "endTimestampMs" : "1580860832000"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336473121,
+          "longitudeE7" : -1178440225,
+          "placeId" : "ChIJuZ4dHhLe3IARykBwRywlcuQ",
+          "address" : "W Peltason Dr\nIrvine, CA 92697\nUSA",
+          "name" : "Humanities Hall",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580852989506",
+          "endTimestampMs" : "1580857387429"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336476500,
+        "centerLngE7" : -1178431200
+      }, {
+        "location" : {
+          "latitudeE7" : 336434162,
+          "longitudeE7" : -1178420588,
+          "placeId" : "ChIJY7ae7w_e3IARhSRttztgZoM",
+          "address" : "Irvine, CA 92617\nUSA",
+          "name" : "Donald Bren Hall (DBH)",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580857857984",
+          "endTimestampMs" : "1580860832000"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336434300,
+        "centerLngE7" : -1178421600
+      } ],
+      "centerLatE7" : 336448367,
+      "centerLngE7" : -1178424800
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336435328,
+        "longitudeE7" : -1178425184
+      },
+      "endLocation" : {
+        "latitudeE7" : 336571733,
+        "longitudeE7" : -1178286780
+      },
+      "duration" : {
+        "startTimestampMs" : "1580860832000",
+        "endTimestampMs" : "1580877093271"
+      },
+      "distance" : 2305,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 65.00902771949768
+      }, {
+        "activityType" : "STILL",
+        "probability" : 15.03506749868393
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.040633916854858
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.255797877907753
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 2.3167258128523827
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.6831908598542213
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5087507423013449
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.06308928714133799
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.03413271624594927
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.026128286845050752
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.014339991321321577
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.005317639443092048
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00529909048054833
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0021079880752949975
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.9377978282573167E-4
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336455935,
+          "lngE7" : -1178418818,
+          "timestampMs" : "1580861011999",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 336490487,
+          "lngE7" : -1178429961,
+          "timestampMs" : "1580861307999",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336508445,
+          "lngE7" : -1178421387,
+          "timestampMs" : "1580861544000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336528385,
+          "lngE7" : -1178396787,
+          "timestampMs" : "1580861867000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336580196,
+          "lngE7" : -1178092340,
+          "timestampMs" : "1580871285000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336705501,
+          "lngE7" : -1177876200,
+          "timestampMs" : "1580871649000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336573483,
+          "lngE7" : -1178250569,
+          "timestampMs" : "1580874680000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 336502854,
+          "lngE7" : -1178377123,
+          "timestampMs" : "1580875002000",
+          "accuracyMeters" : 10
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336533056,
+        "longitudeE7" : -1178396364
+      },
+      "endLocation" : {
+        "latitudeE7" : 336507218,
+        "longitudeE7" : -1178392644
+      },
+      "duration" : {
+        "startTimestampMs" : "1580941974999",
+        "endTimestampMs" : "1580942258000"
+      },
+      "distance" : 289,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 66.69829487800598
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 18.903473019599915
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.688927322626114
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.04374822974205
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.1177690476179123
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6816247254610062
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.43621123768389225
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.17250728560611606
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.08182398159988225
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.06389599875546992
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.03769680915866047
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03672431339509785
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.024756285711191595
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.012220250209793448
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.2437969821330626E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336533241,
+          "lngE7" : -1178396606
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336507606,
+          "lngE7" : -1178392257
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336503829,
+        "longitudeE7" : -1178390142,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580942258000",
+        "endTimestampMs" : "1580942650000"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336508271,
+          "longitudeE7" : -1178390875,
+          "placeId" : "ChIJj71SCQ3e3IARiltJQVzvYys",
+          "address" : "4187 Campus Dr M173\nIrvine, CA 92612\nUSA",
+          "name" : "Cha For Tea",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580942258000",
+          "endTimestampMs" : "1580942650000"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336503500,
+        "centerLngE7" : -1178391550
+      } ],
+      "centerLatE7" : 336503500,
+      "centerLngE7" : -1178391550
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336499805,
+        "longitudeE7" : -1178390529
+      },
+      "endLocation" : {
+        "latitudeE7" : 336440068,
+        "longitudeE7" : -1178411051
+      },
+      "duration" : {
+        "startTimestampMs" : "1580942650000",
+        "endTimestampMs" : "1580943337238"
+      },
+      "distance" : 742,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 68.30818057060242
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 12.531901895999908
+      }, {
+        "activityType" : "STILL",
+        "probability" : 12.468373775482178
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.73046288639307
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.550695650279522
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.4865506663918495
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.31976804602891207
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.22406510543078184
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.19094900926575065
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.08755033486522734
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.05188739742152393
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.034137838520109653
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.008786148828221485
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.004609563620761037
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.002074755866487976
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336466300,
+          "lngE7" : -1178415677,
+          "timestampMs" : "1580943048000",
+          "accuracyMeters" : 5
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : 1349159422
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1580943337238",
+        "endTimestampMs" : "1580951434000"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336444272,
+          "longitudeE7" : -1178407395,
+          "placeId" : "ChIJzW3cvA_e3IARM3dvomowDEc",
+          "address" : "Ring Rd\nIrvine, CA 92617\nUSA",
+          "name" : "Engineering Lecture Hall",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580943337238",
+          "endTimestampMs" : "1580946844333"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 336443700,
+        "centerLngE7" : -1178412925
+      }, {
+        "location" : {
+          "latitudeE7" : 336473121,
+          "longitudeE7" : -1178440225,
+          "placeId" : "ChIJuZ4dHhLe3IARykBwRywlcuQ",
+          "address" : "W Peltason Dr\nIrvine, CA 92697\nUSA",
+          "name" : "Humanities Hall",
+          "sourceInfo" : {
+            "deviceTag" : 1349159422
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1580947142051",
+          "endTimestampMs" : "1580951158666"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336470700,
+        "centerLngE7" : -1178437600
+      } ],
+      "centerLatE7" : 336443700,
+      "centerLngE7" : -1178412925
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336479715,
+        "longitudeE7" : -1178444265
+      },
+      "endLocation" : {
+        "latitudeE7" : 336506951,
+        "longitudeE7" : -1178422486
+      },
+      "duration" : {
+        "startTimestampMs" : "1580951434000",
+        "endTimestampMs" : "1580951788999"
+      },
+      "distance" : 369,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 69.74537372589111
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.316067934036255
+      }, {
+        "activityType" : "STILL",
+        "probability" : 6.80595189332962
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 6.695849448442459
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 4.588546231389046
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.0658144019544125
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.3720334265381098
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.16065181698650122
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.09502856992185116
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08182675810530782
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.026426377007737756
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.026357421302236617
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.014981816639192402
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003454072430031374
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0016397974832216278
+      } ]
+    }
+  } ]
+}

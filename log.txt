@@ -1,0 +1,9 @@
+
+    It is currently 2020-02-23 22:25:52
+    You are at lat: 33.6532819, long: -117.8395018
+    Your estimate address: 680 Stanford Ct, Irvine, CA 92612, USA
+    Your current steps: 2000, 6000 steps away from your goal step
+    
+        It seems like you don't have any events coming up.
+        Exiting calendar based search...
+        

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Walking Advisor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/fontawesome.min.css") }}">
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/fullcalendar.min.css") }}">
+    <!-- https://fullcalendar.io/ -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/bootstrap.min.css") }}">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/tooplate.css") }}">
+</head>
+
+<body id="reportsPage">
+    <div class="" id="home">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                            <i class="fas fa-3x fa-tachometer-alt tm-site-icon"></i>
+                            <h1 class="tm-site-title mb-0">Walking Advisor</h1>
+                        </a>
+                        <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="http://127.0.0.1:5000/{{uid}}">Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Recommendation
+                                      <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="http://127.0.0.1:5000/trip/{{uid}}">Trip</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex" href="login.html">
+                                        <i class="far fa-user mr-2 tm-logout-icon"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row tm-content-row tm-mt-big">
+
+              <div class="tm-col tm-col-big col-12">
+                  <div class="bg-white tm-block h-100">
+                    <div class="row">
+                        <div class="col-8">
+                          {% if rec_mode == 'in_trip' %}
+                          <h2 class="tm-block-title d-inline-block">Currently in a trip</h2>
+                          {% elif rec_mode == 'resting' %}
+                          <h2 class="tm-block-title d-inline-block">It's your resting time</h2>
+                          {% elif rec_mode == 'schedule' %}
+                          <h2 class="tm-block-title d-inline-block">You are in a schedule</h2>
+                          {% else %}
+                          <h2 class="tm-block-title d-inline-block">You are free to walk!</h2>
+                          {% endif %}
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              {% if rec_mode == 'rec'%}
+              <div class="tm-col tm-col-big col-12">
+                  <div class="bg-white tm-block h-100">
+                    <ul class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
+                        {% if spare_time < 1e9 %}
+                        <li class="tm-list-group-item">
+                          Next destination:<b>{{event_location}}</b> at {{event_time}}
+                        </li>
+                        <li class="tm-list-group-item">
+                          Detected travel mode: <b>{{travel_mode}}</b>
+                        </li>
+                        <li class="tm-list-group-item">
+                          You have <b>{{ spare_time }}</b> min to spare. Start walking now!
+                        </li>
+                        {% else %}
+                        <li class="tm-list-group-item">
+                          You are free from schedule. Start walking now!
+                        </li>
+                        {% endif %}
+                        <li class="tm-list-group-item">
+                          Detected usual events at this time:
+                            <ul type="circle">
+                              {% for e in events %}
+                              <li>{{ e }}</li>
+                              {% endfor %}
+                            </ul>
+                        </li>
+                        <li class="tm-list-group-item">
+                          You ideal distance for this trip is {{ ideal_distance }} mi
+                        </li>
+                        <li class="tm-list-group-item">
+                          <form action="http://127.0.0.1:5000/options/{{uid}}">
+                            <button type="submit">Generate recommendations now</button>
+                          </form>
+                        </li>
+                    </ul>
+
+                  </div>
+              </div>
+              {% endif %}
+
+            <footer class="row tm-mt-small">
+                <div class="col-12 font-weight-light">
+                    <p class="d-inline-block tm-bg-black text-white py-2 px-4">
+                        Copyright &copy; 2018 Admin Dashboard . Created by
+                        <a rel="nofollow" href="https://www.tooplate.com" class="text-white tm-footer-link">Tooplate</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename="js/jquery-3.3.1.min.js") }}"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="{{ url_for('static', filename="js/moment.min.js") }}"></script>
+    <!-- https://momentjs.com/ -->
+    <script src="{{ url_for('static', filename="js/utils.js") }}"></script>
+    <script src="{{ url_for('static', filename="js/Chart.min.js") }}"></script>
+    <!-- http://www.chartjs.org/docs/latest/ -->
+    <script src="{{ url_for('static', filename="js/fullcalendar.min.js") }}"></script>
+    <!-- https://fullcalendar.io/ -->
+    <script src="{{ url_for('static', filename="js/bootstrap.min.js") }}"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script src="{{ url_for('static', filename="js/tooplate-scripts.js") }}"></script>
+</body>
+</html>

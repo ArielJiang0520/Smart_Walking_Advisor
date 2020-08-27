@@ -1,0 +1,5734 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559777682704",
+        "endTimestampMs" : "1559778190371"
+      },
+      "distance" : 2356,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 76.67572290517019
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 11.646505697319018
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 11.246292670864237
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336488113,
+          "lngE7" : -1178460540
+        }, {
+          "latE7" : 336400184,
+          "lngE7" : -1178432998
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336477683,
+          "lngE7" : -1178473867,
+          "timestampMs" : "1559777900000",
+          "accuracyMeters" : 3
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.98981
+      },
+      "duration" : {
+        "startTimestampMs" : "1559778190371",
+        "endTimestampMs" : "1559786021565"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336444658,
+          "longitudeE7" : -1178442357,
+          "placeId" : "ChIJM9j_SRDe3IARbpw4a9H8HCg",
+          "address" : "Ring Rd\nIrvine, CA 92697\nUSA",
+          "name" : "Rowland Hall",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 20.988483
+        },
+        "duration" : {
+          "startTimestampMs" : "1559778190371",
+          "endTimestampMs" : "1559778809890"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 336440007,
+        "centerLngE7" : -1178443277,
+        "visitConfidence" : 69,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "locationConfidence" : 13.953767
+        }, {
+          "latitudeE7" : 336436496,
+          "longitudeE7" : -1178446509,
+          "placeId" : "ChIJVVVVBQ7e3IARG2tjbyGf4Bk",
+          "locationConfidence" : 4.3513093
+        }, {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "locationConfidence" : 1.3904951
+        }, {
+          "latitudeE7" : 336458292,
+          "longitudeE7" : -1178468481,
+          "placeId" : "ChIJlYc2bhHe3IAR2uGqbK_4Gxc",
+          "locationConfidence" : 0.8031668
+        }, {
+          "latitudeE7" : 336438715,
+          "longitudeE7" : -1178435374,
+          "placeId" : "ChIJReNYIxDe3IARuX5wTkgHY2k",
+          "locationConfidence" : 0.5239739
+        }, {
+          "latitudeE7" : 336437962,
+          "longitudeE7" : -1178445442,
+          "placeId" : "ChIJh5lDPhDe3IARuz-Cfzp_dvc",
+          "locationConfidence" : 0.50778085
+        }, {
+          "latitudeE7" : 336445378,
+          "longitudeE7" : -1178442008,
+          "placeId" : "ChIJ0wfnNRDe3IARKXmiVrRuPlA",
+          "locationConfidence" : 0.5069292
+        }, {
+          "latitudeE7" : 336434045,
+          "longitudeE7" : -1178435236,
+          "placeId" : "ChIJab80GBDe3IARLR1b8E5VZoI",
+          "locationConfidence" : 0.49266228
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "address" : "Physical Sciences Lecture Hall\nIrvine, CA 92617\nUSA",
+          "name" : "Physical Sciences Lecture Hall",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 96.52717
+        },
+        "duration" : {
+          "startTimestampMs" : "1559778930903",
+          "endTimestampMs" : "1559782096860"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336435342,
+        "centerLngE7" : -1178439440,
+        "visitConfidence" : 69,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "locationConfidence" : 0.24926001
+        }, {
+          "latitudeE7" : 336444658,
+          "longitudeE7" : -1178442357,
+          "placeId" : "ChIJM9j_SRDe3IARbpw4a9H8HCg",
+          "locationConfidence" : 0.16733891
+        }, {
+          "latitudeE7" : 336434045,
+          "longitudeE7" : -1178435236,
+          "placeId" : "ChIJab80GBDe3IARLR1b8E5VZoI",
+          "locationConfidence" : 0.13130836
+        }, {
+          "latitudeE7" : 336444272,
+          "longitudeE7" : -1178407395,
+          "placeId" : "ChIJzW3cvA_e3IARM3dvomowDEc",
+          "locationConfidence" : 0.1063211
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 336458292,
+          "longitudeE7" : -1178468481,
+          "placeId" : "ChIJlYc2bhHe3IAR2uGqbK_4Gxc",
+          "address" : "Loading Dock\nIrvine, CA 92617\nUSA",
+          "name" : "Science Library (UCI)",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 50.970028
+        },
+        "duration" : {
+          "startTimestampMs" : "1559782351240",
+          "endTimestampMs" : "1559786021565"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336458397,
+        "centerLngE7" : -1178466554,
+        "visitConfidence" : 69,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336456791,
+          "longitudeE7" : -1178465740,
+          "placeId" : "ChIJ___vbRHe3IAR8PX2D6voLkA",
+          "locationConfidence" : 3.5036733
+        }, {
+          "latitudeE7" : 336461923,
+          "longitudeE7" : -1178461696,
+          "placeId" : "ChIJT6QdehHe3IARa2HJC6v8-pA",
+          "locationConfidence" : 2.0837955
+        }, {
+          "latitudeE7" : 336452026,
+          "longitudeE7" : -1178469422,
+          "placeId" : "ChIJD2mbFBHe3IARctE8raaYfL8",
+          "locationConfidence" : 0.8852141
+        }, {
+          "latitudeE7" : 336473121,
+          "longitudeE7" : -1178440225,
+          "placeId" : "ChIJuZ4dHhLe3IARykBwRywlcuQ",
+          "locationConfidence" : 0.56046516
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336445398,
+      "centerLngE7" : -1178451055,
+      "visitConfidence" : 69,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "locationConfidence" : 0.70159805
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5567888
+      }, {
+        "latitudeE7" : 336434083,
+        "longitudeE7" : -1178434937,
+        "placeId" : "ChIJQ5e2GRDe3IAR90JV9nf_ZSM",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.3533641
+      }, {
+        "latitudeE7" : 336440861,
+        "longitudeE7" : -1178434693,
+        "placeId" : "ChIJyQ3SJRDe3IARiXW5NMURovo",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.119905725
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559786021565",
+        "endTimestampMs" : "1559786371501"
+      },
+      "distance" : 585,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.77281603325484
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.212098760918413
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2985636182212752
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336399421,
+          "lngE7" : -1178437194
+        }, {
+          "latE7" : 336433258,
+          "lngE7" : -1178432540
+        }, {
+          "latE7" : 336456604,
+          "lngE7" : -1178455276
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336458777,
+          "lngE7" : -1178457656,
+          "timestampMs" : "1559786249874",
+          "accuracyMeters" : 33
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336465934,
+        "longitudeE7" : -1178461982,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "address" : "Bonney Research Laboratory\nIrvine, CA 92617\nUSA",
+        "name" : "Bonney Research Laboratory",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 83.61952
+      },
+      "duration" : {
+        "startTimestampMs" : "1559786371501",
+        "endTimestampMs" : "1559788443970"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336456402,
+      "centerLngE7" : -1178457466,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 12.092274
+      }, {
+        "latitudeE7" : 336453342,
+        "longitudeE7" : -1178461731,
+        "placeId" : "ChIJJcJwCxHe3IARfKIQZ1DSPFw",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.7226517
+      }, {
+        "latitudeE7" : 336462207,
+        "longitudeE7" : -1178448007,
+        "placeId" : "ChIJIfw-kRHe3IARmxyNCpVv4U4",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.1093642
+      }, {
+        "latitudeE7" : 336444762,
+        "longitudeE7" : -1178440629,
+        "placeId" : "ChIJmY4_NBDe3IAReB_kHbjtBFk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.28551632
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336455841,
+        "longitudeE7" : -1178458206,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336429862,
+        "longitudeE7" : -1178464489,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559788443970",
+        "endTimestampMs" : "1559788823067"
+      },
+      "distance" : 384,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 59.760307740229926
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 36.08529381346898
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.471412398885323
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336457176,
+          "lngE7" : -1178459396
+        }, {
+          "latE7" : 336441764,
+          "lngE7" : -1178463058
+        }, {
+          "latE7" : 336429328,
+          "lngE7" : -1178464279
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336441241,
+          "lngE7" : -1178463814,
+          "timestampMs" : "1559788682798",
+          "accuracyMeters" : 26
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336426293,
+        "longitudeE7" : -1178462040,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559788823067",
+        "endTimestampMs" : "1559789309882"
+      },
+      "distance" : 1462,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 92.84566182033325
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 5.537999107240397
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.043285043482886
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336426048,
+          "lngE7" : -1178461990
+        }, {
+          "latE7" : 336428146,
+          "lngE7" : -1178490524
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336430791,
+          "lngE7" : -1178465127,
+          "timestampMs" : "1559788926311",
+          "accuracyMeters" : 46
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.87839
+      },
+      "duration" : {
+        "startTimestampMs" : "1559789309882",
+        "endTimestampMs" : "1559940059372"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535010,
+      "centerLngE7" : -1178392814,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.7934512
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.45284468
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.29510662
+      }, {
+        "latitudeE7" : 336533700,
+        "longitudeE7" : -1178383100,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.18714179
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336529731,
+        "longitudeE7" : -1178392604,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559940059372",
+        "endTimestampMs" : "1559940929335"
+      },
+      "distance" : 1463,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.3337460836181
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9728710951014319
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.36186675595527523
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336529808,
+          "lngE7" : -1178393173
+        }, {
+          "latE7" : 336448631,
+          "lngE7" : -1178425292
+        }, {
+          "latE7" : 336399421,
+          "lngE7" : -1178437194
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336472307,
+          "lngE7" : -1178432150,
+          "timestampMs" : "1559940807803",
+          "accuracyMeters" : 50
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 82.93845
+      },
+      "duration" : {
+        "startTimestampMs" : "1559940929335",
+        "endTimestampMs" : "1559942632185"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "address" : "Inner Ring Rd\nIrvine, CA 92697\nUSA",
+          "name" : "Information and Computer Science I (ICS 1)",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 66.87011
+        },
+        "duration" : {
+          "startTimestampMs" : "1559940929335",
+          "endTimestampMs" : "1559942632185"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336444996,
+        "centerLngE7" : -1178417050,
+        "visitConfidence" : 77,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336446460,
+          "longitudeE7" : -1178435786,
+          "placeId" : "ChIJe2KGLRDe3IAR_hDpwHQL_SM",
+          "locationConfidence" : 4.564235
+        }, {
+          "latitudeE7" : 336444272,
+          "longitudeE7" : -1178407395,
+          "placeId" : "ChIJzW3cvA_e3IARM3dvomowDEc",
+          "locationConfidence" : 2.2820048
+        }, {
+          "latitudeE7" : 336460519,
+          "longitudeE7" : -1178427446,
+          "placeId" : "ChIJjzHYJg7e3IARPSQtfCuwD5U",
+          "locationConfidence" : 1.6305323
+        }, {
+          "latitudeE7" : 336435829,
+          "longitudeE7" : -1178414218,
+          "placeId" : "ChIJQSYq7Q_e3IARVTgQwa53Lp8",
+          "locationConfidence" : 0.6746296
+        }, {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "locationConfidence" : 0.61718255
+        }, {
+          "latitudeE7" : 336434162,
+          "longitudeE7" : -1178420588,
+          "placeId" : "ChIJY7ae7w_e3IARhSRttztgZoM",
+          "locationConfidence" : 0.5257257
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336444996,
+      "centerLngE7" : -1178417050,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336442606,
+        "longitudeE7" : -1178418120,
+        "placeId" : "ChIJx937ww_e3IARAgJUK5agMLc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 7.0589795
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 4.916091
+      }, {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "locationConfidence" : 1.861634
+      }, {
+        "latitudeE7" : 336444858,
+        "longitudeE7" : -1178427953,
+        "placeId" : "ChIJs-nc1w_e3IARf4BwLzl0Z7I",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.125083
+      }, {
+        "latitudeE7" : 336439909,
+        "longitudeE7" : -1178416258,
+        "placeId" : "ChIJfxD9wQ_e3IARPAAJrpNPr8M",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.60655844
+      }, {
+        "latitudeE7" : 336444762,
+        "longitudeE7" : -1178440629,
+        "placeId" : "ChIJmY4_NBDe3IAReB_kHbjtBFk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.558213
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336446251,
+        "longitudeE7" : -1178429592,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559942632185",
+        "endTimestampMs" : "1559942889077"
+      },
+      "distance" : 332,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.1161160551885
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.322667572309335
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.5196926454897938
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336446762,
+          "lngE7" : -1178429718
+        }, {
+          "latE7" : 336453933,
+          "lngE7" : -1178441314
+        }, {
+          "latE7" : 336456604,
+          "lngE7" : -1178455276
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336453337,
+          "lngE7" : -1178440935,
+          "timestampMs" : "1559942755957",
+          "accuracyMeters" : 33
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336465934,
+        "longitudeE7" : -1178461982,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "address" : "Bonney Research Laboratory\nIrvine, CA 92617\nUSA",
+        "name" : "Bonney Research Laboratory",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 73.62524
+      },
+      "duration" : {
+        "startTimestampMs" : "1559942889077",
+        "endTimestampMs" : "1559950928770"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336458329,
+      "centerLngE7" : -1178464510,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 23.529884
+      }, {
+        "latitudeE7" : 336453342,
+        "longitudeE7" : -1178461731,
+        "placeId" : "ChIJJcJwCxHe3IARfKIQZ1DSPFw",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.9721137
+      }, {
+        "latitudeE7" : 336462207,
+        "longitudeE7" : -1178448007,
+        "placeId" : "ChIJIfw-kRHe3IARmxyNCpVv4U4",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.53708684
+      }, {
+        "latitudeE7" : 336444762,
+        "longitudeE7" : -1178440629,
+        "placeId" : "ChIJmY4_NBDe3IAReB_kHbjtBFk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.17665301
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559950928770",
+        "endTimestampMs" : "1559951063156"
+      },
+      "distance" : 645,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.37538602755848
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 6.139046155411329
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.6328305024889784
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336456604,
+          "lngE7" : -1178455276
+        }, {
+          "latE7" : 336433258,
+          "lngE7" : -1178432540
+        }, {
+          "latE7" : 336399421,
+          "lngE7" : -1178437194
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336458771,
+          "lngE7" : -1178457300,
+          "timestampMs" : "1559950928770",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 96.973526
+      },
+      "duration" : {
+        "startTimestampMs" : "1559951063156",
+        "endTimestampMs" : "1559955443835"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "address" : "Physical Sciences Lecture Hall\nIrvine, CA 92617\nUSA",
+          "name" : "Physical Sciences Lecture Hall",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 94.79938
+        },
+        "duration" : {
+          "startTimestampMs" : "1559951063156",
+          "endTimestampMs" : "1559955443835"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336439322,
+        "centerLngE7" : -1178439465,
+        "visitConfidence" : 93,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336444658,
+          "longitudeE7" : -1178442357,
+          "placeId" : "ChIJM9j_SRDe3IARbpw4a9H8HCg",
+          "locationConfidence" : 0.41583392
+        }, {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "locationConfidence" : 0.28784984
+        }, {
+          "latitudeE7" : 336434045,
+          "longitudeE7" : -1178435236,
+          "placeId" : "ChIJab80GBDe3IARLR1b8E5VZoI",
+          "locationConfidence" : 0.13194208
+        }, {
+          "latitudeE7" : 336460519,
+          "longitudeE7" : -1178427446,
+          "placeId" : "ChIJjzHYJg7e3IARPSQtfCuwD5U",
+          "locationConfidence" : 0.09928759
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336439322,
+      "centerLngE7" : -1178439465,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336456604,
+        "longitudeE7" : -1178454971,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "locationConfidence" : 0.76247364
+      }, {
+        "latitudeE7" : 336444762,
+        "longitudeE7" : -1178440629,
+        "placeId" : "ChIJmY4_NBDe3IAReB_kHbjtBFk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.76101565
+      }, {
+        "latitudeE7" : 336440861,
+        "longitudeE7" : -1178434693,
+        "placeId" : "ChIJyQ3SJRDe3IARiXW5NMURovo",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5852902
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5152036
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336445947,
+        "longitudeE7" : -1178433241,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1559955443835",
+        "endTimestampMs" : "1559956306381"
+      },
+      "distance" : 1207,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.13279717783757
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.8715337692289236
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2745549719308165
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336446418,
+          "lngE7" : -1178433151
+        }, {
+          "latE7" : 336496810,
+          "lngE7" : -1178428955
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336485882,
+          "lngE7" : -1178408530,
+          "timestampMs" : "1559955807890",
+          "accuracyMeters" : 23
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.72929
+      },
+      "duration" : {
+        "startTimestampMs" : "1559956306381",
+        "endTimestampMs" : "1560046744843"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535238,
+      "centerLngE7" : -1178392751,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.0272505
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.3662972
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.29517925
+      }, {
+        "latitudeE7" : 336533700,
+        "longitudeE7" : -1178383100,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20043787
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336538117,
+        "longitudeE7" : -1178396483,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336157230,
+        "longitudeE7" : -1178771610,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560046744843",
+        "endTimestampMs" : "1560047596965"
+      },
+      "distance" : 6172,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 97.76790139406741
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.5059114535552778
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.44698324009336493
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336538314,
+          "lngE7" : -1178396606
+        }, {
+          "latE7" : 336262588,
+          "lngE7" : -1178784561
+        }, {
+          "latE7" : 336153144,
+          "lngE7" : -1178777618
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336158860,
+        "longitudeE7" : -1178758470,
+        "placeId" : "ChIJUetYrofg3IARvxarZNginsY",
+        "address" : "401 Newport Center Dr\nNewport Beach, CA 92660\nUSA",
+        "name" : "Fashion Island",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 99.944084
+      },
+      "duration" : {
+        "startTimestampMs" : "1560047596965",
+        "endTimestampMs" : "1560053347344"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336159897,
+          "longitudeE7" : -1178776831,
+          "placeId" : "ChIJ2waXg33g3IARE-fGxGqIkrk",
+          "address" : "901 Newport Center Dr\nNewport Beach, CA 92660\nUSA",
+          "name" : "Nordstrom Fashion Island",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 92.72538
+        },
+        "duration" : {
+          "startTimestampMs" : "1560047596965",
+          "endTimestampMs" : "1560047716269"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336159708,
+        "centerLngE7" : -1178774847,
+        "visitConfidence" : 94,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336156650,
+          "longitudeE7" : -1178768510,
+          "placeId" : "ChIJCVFsmYfg3IARPywh_DzbqmA",
+          "locationConfidence" : 6.6183863
+        }, {
+          "latitudeE7" : 336167602,
+          "longitudeE7" : -1178757738,
+          "placeId" : "ChIJFd8ljH3g3IARFPgSEkOSzzI",
+          "locationConfidence" : 0.17674951
+        }, {
+          "latitudeE7" : 336149788,
+          "longitudeE7" : -1178767496,
+          "placeId" : "ChIJXRz1tYfg3IARp9RaiNM-Ez4",
+          "locationConfidence" : 0.15614574
+        }, {
+          "latitudeE7" : 336157738,
+          "longitudeE7" : -1178771067,
+          "placeId" : "ChIJ6foRT4bg3IARPSC-hlM2GSo",
+          "locationConfidence" : 0.095328346
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      }, {
+        "location" : {
+          "latitudeE7" : 336153850,
+          "longitudeE7" : -1178775150,
+          "placeId" : "ChIJI9F--Yfg3IAR2pT5Ev1p4OI",
+          "address" : "1141 Newport Center Dr\nNewport Beach, CA 92660\nUSA",
+          "name" : "The Cheesecake Factory",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 46.92014
+        },
+        "duration" : {
+          "startTimestampMs" : "1560049304212",
+          "endTimestampMs" : "1560052822808"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336153577,
+        "centerLngE7" : -1178775349,
+        "visitConfidence" : 94,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336149788,
+          "longitudeE7" : -1178767496,
+          "placeId" : "ChIJXRz1tYfg3IARp9RaiNM-Ez4",
+          "locationConfidence" : 20.836111
+        }, {
+          "latitudeE7" : 336151322,
+          "longitudeE7" : -1178773054,
+          "placeId" : "ChIJXZ4aT4bg3IAR5zDTI8DIBuM",
+          "locationConfidence" : 10.687673
+        }, {
+          "latitudeE7" : 336157738,
+          "longitudeE7" : -1178771067,
+          "placeId" : "ChIJ6foRT4bg3IARPSC-hlM2GSo",
+          "locationConfidence" : 7.404509
+        }, {
+          "latitudeE7" : 336154902,
+          "longitudeE7" : -1178772722,
+          "placeId" : "ChIJnxeR-Yfg3IARNNovZKnu5xg",
+          "locationConfidence" : 3.8278697
+        }, {
+          "latitudeE7" : 336154290,
+          "longitudeE7" : -1178770961,
+          "placeId" : "ChIJv-bm-4fg3IARS4utfuXYt40",
+          "locationConfidence" : 3.0736713
+        }, {
+          "latitudeE7" : 336158223,
+          "longitudeE7" : -1178766210,
+          "placeId" : "ChIJPVvrX33g3IARU6NaB6kE-lY",
+          "locationConfidence" : 1.7118123
+        }, {
+          "latitudeE7" : 336152076,
+          "longitudeE7" : -1178774033,
+          "placeId" : "ChIJ5-utj4fg3IARO1G1pVq3AyA",
+          "locationConfidence" : 1.244432
+        }, {
+          "latitudeE7" : 336154074,
+          "longitudeE7" : -1178772317,
+          "placeId" : "ChIJo0CeY33g3IARMNYELVRLU4g",
+          "locationConfidence" : 0.82643795
+        }, {
+          "latitudeE7" : 336154230,
+          "longitudeE7" : -1178771469,
+          "placeId" : "ChIJS42fTobg3IAR6-R6FOYEGiE",
+          "locationConfidence" : 0.7926622
+        }, {
+          "latitudeE7" : 336154490,
+          "longitudeE7" : -1178776169,
+          "placeId" : "ChIJsTi67Ifg3IARIVTtolVg2A4",
+          "locationConfidence" : 0.67767626
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336152615,
+      "centerLngE7" : -1178770849,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336163322,
+        "longitudeE7" : -1178794970,
+        "placeId" : "ChIJO58U633g3IARu2ybcUmPQXk",
+        "locationConfidence" : 0.028881796
+      }, {
+        "latitudeE7" : 336166919,
+        "longitudeE7" : -1178736485,
+        "placeId" : "ChIJ51NdNIbg3IARgMNh5knqs5U",
+        "locationConfidence" : 0.008036305
+      }, {
+        "latitudeE7" : 336104890,
+        "longitudeE7" : -1178811570,
+        "placeId" : "ChIJlUmVDnzg3IARbn6zcfofnjk",
+        "locationConfidence" : 0.007513155
+      }, {
+        "latitudeE7" : 336127400,
+        "longitudeE7" : -1178755100,
+        "placeId" : "ChIJ60vaZojg3IARfJs8M0BnhXs",
+        "locationConfidence" : 0.0022937327
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336147008,
+        "longitudeE7" : -1178768527,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336535147,
+        "longitudeE7" : -1178394010,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560053347344",
+        "endTimestampMs" : "1560053980871"
+      },
+      "distance" : 6577,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.38652475051555
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7582151844224198
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.4609446555190799
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336146430,
+          "lngE7" : -1178769149
+        }, {
+          "latE7" : 336309623,
+          "lngE7" : -1178745803
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.57419
+      },
+      "duration" : {
+        "startTimestampMs" : "1560053980871",
+        "endTimestampMs" : "1560133855856"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535113,
+      "centerLngE7" : -1178392756,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.0227302
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.45426744
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.3355174
+      }, {
+        "latitudeE7" : 336533700,
+        "longitudeE7" : -1178383100,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.21327646
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336501557,
+        "longitudeE7" : -1178381765,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560133855856",
+        "endTimestampMs" : "1560134193675"
+      },
+      "distance" : 619,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 92.85083158440607
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 5.513553953000257
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.8947375690454862
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336517219,
+          "lngE7" : -1178377151
+        }, {
+          "latE7" : 336501083,
+          "lngE7" : -1178380661
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336513283,
+          "lngE7" : -1178370656,
+          "timestampMs" : "1560134053451",
+          "accuracyMeters" : 34
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.62204
+      },
+      "duration" : {
+        "startTimestampMs" : "1560134193675",
+        "endTimestampMs" : "1560135568747"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336505585,
+          "longitudeE7" : -1178381177,
+          "placeId" : "ChIJJVC1tpjf3IAR33C_RgTYo38",
+          "address" : "4199 Campus Dr suite c\nIrvine, CA 92612\nUSA",
+          "name" : "Sharetea at UCI",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 39.358097
+        },
+        "duration" : {
+          "startTimestampMs" : "1560135196997",
+          "endTimestampMs" : "1560135448096"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336505701,
+        "centerLngE7" : -1178381151,
+        "visitConfidence" : 95,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336505536,
+          "longitudeE7" : -1178378853,
+          "placeId" : "ChIJ24f3bgze3IARAiuiNd1rABA",
+          "locationConfidence" : 12.542366
+        }, {
+          "latitudeE7" : 336509100,
+          "longitudeE7" : -1178383320,
+          "placeId" : "ChIJWaD2Zgze3IARv1R1f_ev_YU",
+          "locationConfidence" : 9.467939
+        }, {
+          "latitudeE7" : 336508330,
+          "longitudeE7" : -1178382180,
+          "placeId" : "ChIJWaD2Zgze3IARaOoQlQaU7wY",
+          "locationConfidence" : 9.458507
+        }, {
+          "latitudeE7" : 336503104,
+          "longitudeE7" : -1178381488,
+          "placeId" : "ChIJoQdCQwze3IARbej6n9Cf_TM",
+          "locationConfidence" : 7.9669185
+        }, {
+          "latitudeE7" : 336505739,
+          "longitudeE7" : -1178383071,
+          "placeId" : "ChIJ-Yd8UAze3IARznsgn-5VYvQ",
+          "locationConfidence" : 5.628288
+        }, {
+          "latitudeE7" : 336504231,
+          "longitudeE7" : -1178378742,
+          "placeId" : "ChIJE2EtbQze3IARR2eumB6YXuY",
+          "locationConfidence" : 5.5854673
+        }, {
+          "latitudeE7" : 336507888,
+          "longitudeE7" : -1178383109,
+          "placeId" : "ChIJWaD2Zgze3IARQputAQpYEDw",
+          "locationConfidence" : 3.6061578
+        }, {
+          "latitudeE7" : 336507733,
+          "longitudeE7" : -1178383508,
+          "placeId" : "ChIJWaD2Zgze3IARCfsV3UvbhLs",
+          "locationConfidence" : 0.5241398
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336500684,
+      "centerLngE7" : -1178386403,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.1280713
+      }, {
+        "latitudeE7" : 336519497,
+        "longitudeE7" : -1178374723,
+        "placeId" : "ChIJ32rP0mvf3IARj0dEqRhAXLM",
+        "locationConfidence" : 0.27955878
+      }, {
+        "latitudeE7" : 336492844,
+        "longitudeE7" : -1178395821,
+        "placeId" : "ChIJpXSNMwze3IAR3bJhOETyXOI",
+        "locationConfidence" : 0.1498448
+      }, {
+        "latitudeE7" : 336519428,
+        "longitudeE7" : -1178374849,
+        "placeId" : "ChIJu7fLWgne3IARLbYpT2fGGr4",
+        "locationConfidence" : 0.12670676
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336505404,
+        "longitudeE7" : -1178382252,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336536277,
+        "longitudeE7" : -1178394625,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560135568747",
+        "endTimestampMs" : "1560135857756"
+      },
+      "distance" : 643,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 83.71185628727177
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 14.644639154270806
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4970570414810218
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336508789,
+          "lngE7" : -1178380279
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336536293,
+          "lngE7" : -1178394546
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336525425,
+          "lngE7" : -1178406734,
+          "timestampMs" : "1560135736401",
+          "accuracyMeters" : 30
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.58352
+      },
+      "duration" : {
+        "startTimestampMs" : "1560135857756",
+        "endTimestampMs" : "1560180745786"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336534956,
+      "centerLngE7" : -1178393041,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.858204
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.58187586
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.3785866
+      }, {
+        "latitudeE7" : 336533700,
+        "longitudeE7" : -1178383100,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20724288
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336529782,
+        "longitudeE7" : -1178400978,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560180745786",
+        "endTimestampMs" : "1560181604243"
+      },
+      "distance" : 8614,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.43569366836513
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.38284357626490845
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.06820008851873585
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336529579,
+          "lngE7" : -1178400726
+        }, {
+          "latE7" : 336588516,
+          "lngE7" : -1178002090
+        }, {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "placeId" : "ChIJXYPO8OHc3IARNyLgA6ObhG8",
+        "address" : "930 Roosevelt\nIrvine, CA 92620\nUSA",
+        "name" : "Modi Offices",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 39.198666
+      },
+      "duration" : {
+        "startTimestampMs" : "1560181604243",
+        "endTimestampMs" : "1560208348707"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336928538,
+      "centerLngE7" : -1177662860,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336928711,
+        "longitudeE7" : -1177663040,
+        "placeId" : "ChIJOzTKv-Hc3IARF-MmrI79zyY",
+        "semanticType" : "TYPE_WORK",
+        "locationConfidence" : 32.14361
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ-w7O8OHc3IAR-ESRxBqaM80",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 13.10352
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ8UdOtqLd3IARJFsqQkHvgJc",
+        "locationConfidence" : 8.329303
+      }, {
+        "latitudeE7" : 336927680,
+        "longitudeE7" : -1177662660,
+        "placeId" : "ChIJXYPO8OHc3IAR2YPQWcS3CXA",
+        "locationConfidence" : 1.6671345
+      }, {
+        "latitudeE7" : 336926411,
+        "longitudeE7" : -1177663575,
+        "placeId" : "ChIJA7RY9-Hc3IARg1aNDx6IymE",
+        "locationConfidence" : 1.1382552
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJm9EWJcDc3IAR1UOToSt_phI",
+        "locationConfidence" : 0.61510164
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560208348707",
+        "endTimestampMs" : "1560209524564"
+      },
+      "distance" : 9468,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.23439024112214
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.4927789961698673
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.10008262325321411
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        }, {
+          "latE7" : 336586837,
+          "lngE7" : -1178010482
+        }, {
+          "latE7" : 336592521,
+          "lngE7" : -1178356704
+        }, {
+          "latE7" : 336536979,
+          "lngE7" : -1178388824
+        }, {
+          "latE7" : 336499023,
+          "lngE7" : -1178381958
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336591264,
+          "lngE7" : -1178360538,
+          "timestampMs" : "1560209275546",
+          "accuracyMeters" : 55
+        }, {
+          "latE7" : 336571163,
+          "lngE7" : -1178394701,
+          "timestampMs" : "1560209404721",
+          "accuracyMeters" : 34
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 89.78293
+      },
+      "duration" : {
+        "startTimestampMs" : "1560209524564",
+        "endTimestampMs" : "1560210019933"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336505585,
+          "longitudeE7" : -1178381177,
+          "placeId" : "ChIJJVC1tpjf3IAR33C_RgTYo38",
+          "address" : "4199 Campus Dr suite c\nIrvine, CA 92612\nUSA",
+          "name" : "Sharetea at UCI",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 33.77213
+        },
+        "duration" : {
+          "startTimestampMs" : "1560209524564",
+          "endTimestampMs" : "1560209897248"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336505678,
+        "centerLngE7" : -1178381048,
+        "visitConfidence" : 89,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336505536,
+          "longitudeE7" : -1178378853,
+          "placeId" : "ChIJ24f3bgze3IARAiuiNd1rABA",
+          "locationConfidence" : 11.647675
+        }, {
+          "latitudeE7" : 336509100,
+          "longitudeE7" : -1178383320,
+          "placeId" : "ChIJWaD2Zgze3IARv1R1f_ev_YU",
+          "locationConfidence" : 11.265413
+        }, {
+          "latitudeE7" : 336505739,
+          "longitudeE7" : -1178383071,
+          "placeId" : "ChIJ-Yd8UAze3IARznsgn-5VYvQ",
+          "locationConfidence" : 7.69348
+        }, {
+          "latitudeE7" : 336503104,
+          "longitudeE7" : -1178381488,
+          "placeId" : "ChIJoQdCQwze3IARbej6n9Cf_TM",
+          "locationConfidence" : 7.670584
+        }, {
+          "latitudeE7" : 336508330,
+          "longitudeE7" : -1178382180,
+          "placeId" : "ChIJWaD2Zgze3IARaOoQlQaU7wY",
+          "locationConfidence" : 6.9643745
+        }, {
+          "latitudeE7" : 336504231,
+          "longitudeE7" : -1178378742,
+          "placeId" : "ChIJE2EtbQze3IARR2eumB6YXuY",
+          "locationConfidence" : 4.7014627
+        }, {
+          "latitudeE7" : 336507888,
+          "longitudeE7" : -1178383109,
+          "placeId" : "ChIJWaD2Zgze3IARQputAQpYEDw",
+          "locationConfidence" : 3.4008963
+        }, {
+          "latitudeE7" : 336507733,
+          "longitudeE7" : -1178383508,
+          "placeId" : "ChIJWaD2Zgze3IARCfsV3UvbhLs",
+          "locationConfidence" : 0.5286475
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336505025,
+      "centerLngE7" : -1178375925,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 5.2045217
+      }, {
+        "latitudeE7" : 336519497,
+        "longitudeE7" : -1178374723,
+        "placeId" : "ChIJ32rP0mvf3IARj0dEqRhAXLM",
+        "locationConfidence" : 0.6210555
+      }, {
+        "latitudeE7" : 336492844,
+        "longitudeE7" : -1178395821,
+        "placeId" : "ChIJpXSNMwze3IAR3bJhOETyXOI",
+        "locationConfidence" : 0.5082912
+      }, {
+        "latitudeE7" : 336519428,
+        "longitudeE7" : -1178374849,
+        "placeId" : "ChIJu7fLWgne3IARLbYpT2fGGr4",
+        "locationConfidence" : 0.47351873
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336502165,
+        "longitudeE7" : -1178378754,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560210019933",
+        "endTimestampMs" : "1560210267742"
+      },
+      "distance" : 492,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 63.25843352137981
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 28.784252453177622
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 7.348297579834143
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336502265,
+          "lngE7" : -1178378753
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336522927,
+          "lngE7" : -1178402634,
+          "timestampMs" : "1560210118919",
+          "accuracyMeters" : 36
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.60294
+      },
+      "duration" : {
+        "startTimestampMs" : "1560210267742",
+        "endTimestampMs" : "1560267485741"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336534955,
+      "centerLngE7" : -1178392237,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.9190778
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.436826
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.40728536
+      }, {
+        "latitudeE7" : 336533700,
+        "longitudeE7" : -1178383100,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20532839
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560267485741",
+        "endTimestampMs" : "1560268265797"
+      },
+      "distance" : 8534,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.4439791592304
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.35902263310857485
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.06782249488531705
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336588516,
+          "lngE7" : -1178002090
+        }, {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336606088,
+          "lngE7" : -1177982267,
+          "timestampMs" : "1560267902091",
+          "accuracyMeters" : 27
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "placeId" : "ChIJXYPO8OHc3IARNyLgA6ObhG8",
+        "address" : "930 Roosevelt\nIrvine, CA 92620\nUSA",
+        "name" : "Modi Offices",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 42.777756
+      },
+      "duration" : {
+        "startTimestampMs" : "1560268265797",
+        "endTimestampMs" : "1560294744846"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336929107,
+      "centerLngE7" : -1177662122,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336928711,
+        "longitudeE7" : -1177663040,
+        "placeId" : "ChIJOzTKv-Hc3IARF-MmrI79zyY",
+        "semanticType" : "TYPE_WORK",
+        "locationConfidence" : 28.311335
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ-w7O8OHc3IAR-ESRxBqaM80",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 12.769011
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ8UdOtqLd3IARJFsqQkHvgJc",
+        "locationConfidence" : 8.937253
+      }, {
+        "latitudeE7" : 336927680,
+        "longitudeE7" : -1177662660,
+        "placeId" : "ChIJXYPO8OHc3IAR2YPQWcS3CXA",
+        "locationConfidence" : 2.0058057
+      }, {
+        "latitudeE7" : 336926411,
+        "longitudeE7" : -1177663575,
+        "placeId" : "ChIJA7RY9-Hc3IARg1aNDx6IymE",
+        "locationConfidence" : 1.0156355
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJm9EWJcDc3IAR1UOToSt_phI",
+        "locationConfidence" : 0.6597928
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336927579,
+        "longitudeE7" : -1177663003,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336536547,
+        "longitudeE7" : -1178392874,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560294744846",
+        "endTimestampMs" : "1560296904630"
+      },
+      "distance" : 9694,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.79459532440018
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6864240083617031
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.299504176983826
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        }, {
+          "latE7" : 336586837,
+          "lngE7" : -1178010482
+        }, {
+          "latE7" : 336576118,
+          "lngE7" : -1178359603
+        }, {
+          "latE7" : 336536979,
+          "lngE7" : -1178388824
+        }, {
+          "latE7" : 336500587,
+          "lngE7" : -1178377075
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336535987,
+          "lngE7" : -1178394393
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336520558,
+          "lngE7" : -1178381610,
+          "timestampMs" : "1560296749349",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 336523686,
+          "lngE7" : -1178406031,
+          "timestampMs" : "1560296783702",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 92.311905
+      },
+      "duration" : {
+        "startTimestampMs" : "1560296904630",
+        "endTimestampMs" : "1560299170016"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535387,
+      "centerLngE7" : -1178393131,
+      "visitConfidence" : 88,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 2.9483097
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 2.2152166
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.1024575
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.4069618
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.49128
+      },
+      "duration" : {
+        "startTimestampMs" : "1560392615248",
+        "endTimestampMs" : "1560526449222"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535002,
+      "centerLngE7" : -1178392803,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.1471951
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.40076053
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.38854027
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20952545
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336538054,
+        "longitudeE7" : -1178396198,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560526449222",
+        "endTimestampMs" : "1560527464704"
+      },
+      "distance" : 9209,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.45158574607561
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.3727574607297405
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07782387695958044
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336538276,
+          "lngE7" : -1178395614
+        }, {
+          "latE7" : 336672668,
+          "lngE7" : -1177909011
+        }, {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "placeId" : "ChIJXYPO8OHc3IARNyLgA6ObhG8",
+        "address" : "930 Roosevelt\nIrvine, CA 92620\nUSA",
+        "name" : "Modi Offices",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 42.20586
+      },
+      "duration" : {
+        "startTimestampMs" : "1560527464704",
+        "endTimestampMs" : "1560554198509"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336928758,
+      "centerLngE7" : -1177662582,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336928711,
+        "longitudeE7" : -1177663040,
+        "placeId" : "ChIJOzTKv-Hc3IARF-MmrI79zyY",
+        "semanticType" : "TYPE_WORK",
+        "locationConfidence" : 28.138487
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ-w7O8OHc3IAR-ESRxBqaM80",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 13.860819
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJ8UdOtqLd3IARJFsqQkHvgJc",
+        "locationConfidence" : 7.957458
+      }, {
+        "latitudeE7" : 336927680,
+        "longitudeE7" : -1177662660,
+        "placeId" : "ChIJXYPO8OHc3IAR2YPQWcS3CXA",
+        "locationConfidence" : 2.4301379
+      }, {
+        "latitudeE7" : 336926411,
+        "longitudeE7" : -1177663575,
+        "placeId" : "ChIJA7RY9-Hc3IARg1aNDx6IymE",
+        "locationConfidence" : 1.2641315
+      }, {
+        "latitudeE7" : 336927856,
+        "longitudeE7" : -1177662444,
+        "placeId" : "ChIJm9EWJcDc3IAR1UOToSt_phI",
+        "locationConfidence" : 0.52428764
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336927486,
+        "longitudeE7" : -1177663178,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560554198509",
+        "endTimestampMs" : "1560555340574"
+      },
+      "distance" : 9420,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.34938763861835
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.48742242190104207
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.06220037094442916
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336929702,
+          "lngE7" : -1177665023
+        }, {
+          "latE7" : 336688156,
+          "lngE7" : -1177895507
+        }, {
+          "latE7" : 336594810,
+          "lngE7" : -1178362121
+        }, {
+          "latE7" : 336536979,
+          "lngE7" : -1178388824
+        }, {
+          "latE7" : 336499023,
+          "lngE7" : -1178381958
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336554149,
+          "lngE7" : -1178385835,
+          "timestampMs" : "1560555217937",
+          "accuracyMeters" : 29
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 94.070045
+      },
+      "duration" : {
+        "startTimestampMs" : "1560555340574",
+        "endTimestampMs" : "1560556072442"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336503056,
+      "centerLngE7" : -1178370589,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 3.5692425
+      }, {
+        "latitudeE7" : 336519428,
+        "longitudeE7" : -1178374849,
+        "placeId" : "ChIJu7fLWgne3IARLbYpT2fGGr4",
+        "locationConfidence" : 0.25363556
+      }, {
+        "latitudeE7" : 336492844,
+        "longitudeE7" : -1178395821,
+        "placeId" : "ChIJpXSNMwze3IAR3bJhOETyXOI",
+        "locationConfidence" : 0.2212043
+      }, {
+        "latitudeE7" : 336528697,
+        "longitudeE7" : -1178355160,
+        "placeId" : "ChIJJXJcawve3IAR_32_M3AxWgs",
+        "locationConfidence" : 0.15883285
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560556072442",
+        "endTimestampMs" : "1560556194724"
+      },
+      "distance" : 699,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 82.44806346223618
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 9.949476938152586
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.276600132802268
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336499023,
+          "lngE7" : -1178381958
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336501468,
+          "lngE7" : -1178369811,
+          "timestampMs" : "1560556072442",
+          "accuracyMeters" : 30
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.78104
+      },
+      "duration" : {
+        "startTimestampMs" : "1560556194724",
+        "endTimestampMs" : "1560647624906"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535175,
+      "centerLngE7" : -1178392809,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.0079087
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.392919
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.30638692
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20279361
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336537512,
+        "longitudeE7" : -1178396782,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336502059,
+        "longitudeE7" : -1178318848,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560647624906",
+        "endTimestampMs" : "1560647996446"
+      },
+      "distance" : 974,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.36567226225674
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.2479553971388775
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.13557238202968916
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336538047,
+          "lngE7" : -1178397140
+        }, {
+          "latE7" : 336515007,
+          "lngE7" : -1178315582
+        }, {
+          "latE7" : 336496620,
+          "lngE7" : -1178325195
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336511572,
+          "lngE7" : -1178353374,
+          "timestampMs" : "1560647868829",
+          "accuracyMeters" : 31
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336495610,
+        "longitudeE7" : -1178323690,
+        "placeId" : "ChIJXyfKpA7e3IARc43jsv1x4GY",
+        "address" : "4547 Campus Dr #4501\nIrvine, CA 92612\nUSA",
+        "name" : "Campus Plaza",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 96.06762
+      },
+      "duration" : {
+        "startTimestampMs" : "1560647996446",
+        "endTimestampMs" : "1560648724461"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336503396,
+          "longitudeE7" : -1178310042,
+          "placeId" : "ChIJ6ZEo2Qne3IARbi7mnMulXpQ",
+          "address" : "4541 Campus Dr\nIrvine, CA 92612\nUSA",
+          "name" : "Albertsons",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 33.61186
+        },
+        "duration" : {
+          "startTimestampMs" : "1560647996446",
+          "endTimestampMs" : "1560648724461"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336497952,
+        "centerLngE7" : -1178316966,
+        "visitConfidence" : 94,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336498865,
+          "longitudeE7" : -1178314912,
+          "placeId" : "ChIJq2F-_Ane3IARE0TorNVLSz8",
+          "locationConfidence" : 33.56255
+        }, {
+          "latitudeE7" : 336498359,
+          "longitudeE7" : -1178307965,
+          "placeId" : "ChIJCfEnZvfe3IAR-wUoHk2ewtg",
+          "locationConfidence" : 8.059027
+        }, {
+          "latitudeE7" : 336498677,
+          "longitudeE7" : -1178320845,
+          "placeId" : "ChIJr1hDZvfe3IAReg85hIayKb8",
+          "locationConfidence" : 3.7174542
+        }, {
+          "latitudeE7" : 336499075,
+          "longitudeE7" : -1178320471,
+          "placeId" : "ChIJdSAr9wne3IARm3Rxi8Pc7ZI",
+          "locationConfidence" : 2.7324126
+        }, {
+          "latitudeE7" : 336500662,
+          "longitudeE7" : -1178318728,
+          "placeId" : "ChIJdTMFp23e3IARTWk_iDT5Xfw",
+          "locationConfidence" : 1.898207
+        }, {
+          "latitudeE7" : 336499297,
+          "longitudeE7" : -1178319972,
+          "placeId" : "ChIJNeY19wne3IARlRd6ZU1fHUM",
+          "locationConfidence" : 1.4609321
+        }, {
+          "latitudeE7" : 336499320,
+          "longitudeE7" : -1178318980,
+          "placeId" : "ChIJdSNBGszf3IARUybqOy02g0g",
+          "locationConfidence" : 0.8036235
+        }, {
+          "latitudeE7" : 336496590,
+          "longitudeE7" : -1178322121,
+          "placeId" : "ChIJabZmG17f3IARs1km3o2JuMI",
+          "locationConfidence" : 0.80170757
+        }, {
+          "latitudeE7" : 336487376,
+          "longitudeE7" : -1178320399,
+          "placeId" : "ChIJpeFFwgne3IARflOIb_NQ1_4",
+          "locationConfidence" : 0.6976306
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336498443,
+      "centerLngE7" : -1178318814,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.7875795
+      }, {
+        "latitudeE7" : 336493060,
+        "longitudeE7" : -1178297420,
+        "placeId" : "ChIJk7JiECLd3IARHTtXqY866XQ",
+        "locationConfidence" : 0.57382727
+      }, {
+        "latitudeE7" : 336488200,
+        "longitudeE7" : -1178296600,
+        "placeId" : "ChIJOSX9Z-Ld3IARdGpKl31OXQ8",
+        "locationConfidence" : 0.24410816
+      }, {
+        "latitudeE7" : 336485972,
+        "longitudeE7" : -1178327854,
+        "placeId" : "ChIJ0zLV7Ane3IARWRIRjssJrA4",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.21819772
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336493811,
+        "longitudeE7" : -1178316744,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 335971759,
+        "longitudeE7" : -1178110821,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560648724461",
+        "endTimestampMs" : "1560650063759"
+      },
+      "distance" : 7661,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.5047137017703
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.36435059056406627
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.027541115670757885
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336493988,
+          "lngE7" : -1178317413
+        }, {
+          "latE7" : 336344299,
+          "lngE7" : -1178273162
+        }, {
+          "latE7" : 336297683,
+          "lngE7" : -1178350982
+        }, {
+          "latE7" : 336152305,
+          "lngE7" : -1178260116
+        }, {
+          "latE7" : 336038169,
+          "lngE7" : -1178292617
+        }, {
+          "latE7" : 336066322,
+          "lngE7" : -1178110580
+        }, {
+          "latE7" : 335971488,
+          "lngE7" : -1178109893
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336297111,
+          "lngE7" : -1178350789,
+          "timestampMs" : "1560649209053",
+          "accuracyMeters" : 35
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 335957850,
+        "longitudeE7" : -1178114890,
+        "placeId" : "ChIJM03u4t7m3IARYduTw3LMtKU",
+        "address" : "2 Seawatch\nNewport Coast, CA 92657\nUSA",
+        "name" : "2 Seawatch",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 37.32571
+      },
+      "duration" : {
+        "startTimestampMs" : "1560650063759",
+        "endTimestampMs" : "1560664877165"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 335964097,
+      "centerLngE7" : -1178115828,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 335955230,
+        "longitudeE7" : -1178120820,
+        "placeId" : "ChIJC1me4N7m3IAR4HsgeKglXF4",
+        "locationConfidence" : 22.309694
+      }, {
+        "latitudeE7" : 335796322,
+        "longitudeE7" : -1178197351,
+        "placeId" : "ChIJgweg3rrm3IARnW8r6EqFlKc",
+        "locationConfidence" : 16.394012
+      }, {
+        "latitudeE7" : 335974220,
+        "longitudeE7" : -1178112310,
+        "placeId" : "ChIJLa5Zct_m3IARDivywE6-dZc",
+        "locationConfidence" : 11.313153
+      }, {
+        "latitudeE7" : 335799949,
+        "longitudeE7" : -1177620637,
+        "placeId" : "ChIJARnXXW3m3IARNbiS3MEm_9g",
+        "locationConfidence" : 10.576713
+      }, {
+        "latitudeE7" : 335984760,
+        "longitudeE7" : -1178104910,
+        "placeId" : "ChIJHfyXgd_m3IARt_gyOtGN3Sc",
+        "locationConfidence" : 0.7554532
+      }, {
+        "latitudeE7" : 335976799,
+        "longitudeE7" : -1178103370,
+        "placeId" : "ChIJtUkgn9_m3IAR-HUqbd3Dgb0",
+        "locationConfidence" : 0.48718637
+      }, {
+        "latitudeE7" : 335973110,
+        "longitudeE7" : -1178105560,
+        "placeId" : "ChIJL1dpoN_m3IARqNSYDoyYIWo",
+        "locationConfidence" : 0.47135183
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 335972123,
+        "longitudeE7" : -1178110534,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336537003,
+        "longitudeE7" : -1178393842,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560664877165",
+        "endTimestampMs" : "1560666004414"
+      },
+      "distance" : 8333,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.33836239409852
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.4909547726095434
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.03551580348626557
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 335971908,
+          "lngE7" : -1178109664
+        }, {
+          "latE7" : 336185798,
+          "lngE7" : -1178260726
+        }, {
+          "latE7" : 336427154,
+          "lngE7" : -1178228302
+        }, {
+          "latE7" : 336489906,
+          "lngE7" : -1178301162
+        }, {
+          "latE7" : 336536674,
+          "lngE7" : -1178394775
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336432938,
+          "lngE7" : -1178233171,
+          "timestampMs" : "1560665632928",
+          "accuracyMeters" : 35
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.566444
+      },
+      "duration" : {
+        "startTimestampMs" : "1560666004414",
+        "endTimestampMs" : "1560726485841"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535074,
+      "centerLngE7" : -1178392272,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.9823184
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.43274447
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.36445966
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.24702904
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 337443503,
+        "longitudeE7" : -1179569939,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560726485841",
+        "endTimestampMs" : "1560728201042"
+      },
+      "distance" : 17306,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.27479515933612
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.39314344611024227
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.1619214792381955
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 337135810,
+          "lngE7" : -1179196166
+        }, {
+          "latE7" : 337165145,
+          "lngE7" : -1179284896
+        }, {
+          "latE7" : 337164535,
+          "lngE7" : -1179378433
+        }, {
+          "latE7" : 337443695,
+          "lngE7" : -1179567260
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 337160548,
+          "lngE7" : -1179411442,
+          "timestampMs" : "1560727712738",
+          "accuracyMeters" : 86
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337443968,
+        "longitudeE7" : -1179579487,
+        "placeId" : "ChIJUboGvbkn3YAR5p9TDnz_elU",
+        "address" : "9812 Bolsa Ave #105\nWestminster, CA 92683\nUSA",
+        "name" : "HAIR SPA SALON BY TIFFANY",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 64.59244
+      },
+      "duration" : {
+        "startTimestampMs" : "1560728201042",
+        "endTimestampMs" : "1560732281662"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 337444223,
+      "centerLngE7" : -1179574758,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 337445463,
+        "longitudeE7" : -1179580141,
+        "placeId" : "ChIJNUbporkn3YARybznrrOtW-4",
+        "locationConfidence" : 20.07437
+      }, {
+        "latitudeE7" : 337442223,
+        "longitudeE7" : -1179568778,
+        "placeId" : "ChIJp5alErkn3YARBnM_LP1tVOk",
+        "locationConfidence" : 6.9654408
+      }, {
+        "latitudeE7" : 337441268,
+        "longitudeE7" : -1179578408,
+        "placeId" : "ChIJjeX0mLkn3YARLcReF8mjG5g",
+        "locationConfidence" : 1.6218863
+      }, {
+        "latitudeE7" : 337441072,
+        "longitudeE7" : -1179574384,
+        "placeId" : "ChIJq6p6nLkn3YARAhcsHvHIWwg",
+        "locationConfidence" : 0.465113
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337443968,
+        "longitudeE7" : -1179579487,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 337442223,
+        "longitudeE7" : -1179568778,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560732281662",
+        "endTimestampMs" : "1560732524735"
+      },
+      "distance" : 103,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 64.21451089488382
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 34.61670847479324
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.6267967868640084
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337444000,
+          "lngE7" : -1179578247
+        }, {
+          "latE7" : 337449226,
+          "lngE7" : -1179572372
+        }, {
+          "latE7" : 337443161,
+          "lngE7" : -1179567108
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 337443719,
+          "lngE7" : -1179575817,
+          "timestampMs" : "1560732281662",
+          "accuracyMeters" : 43
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337442223,
+        "longitudeE7" : -1179568778,
+        "placeId" : "ChIJp5alErkn3YARBnM_LP1tVOk",
+        "address" : "9870 Bolsa Ave\nWestminster, CA 92683\nUSA",
+        "name" : "Thanh Restaurant",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.32674
+      },
+      "duration" : {
+        "startTimestampMs" : "1560732524735",
+        "endTimestampMs" : "1560734192067"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 337442451,
+      "centerLngE7" : -1179568393,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 337444427,
+        "longitudeE7" : -1179569364,
+        "placeId" : "ChIJqzrmyCQn3YARPsLjptT47DQ",
+        "locationConfidence" : 0.38481852
+      }, {
+        "latitudeE7" : 337443683,
+        "longitudeE7" : -1179568479,
+        "placeId" : "ChIJheufdrkn3YARxW12tYugNL8",
+        "locationConfidence" : 0.35968488
+      }, {
+        "latitudeE7" : 337442156,
+        "longitudeE7" : -1179567819,
+        "placeId" : "ChIJ1V2lErkn3YAR25g50ldCV-Y",
+        "locationConfidence" : 0.31217363
+      }, {
+        "latitudeE7" : 337444608,
+        "longitudeE7" : -1179569808,
+        "placeId" : "ChIJK-xYDbkn3YAR_ZWLMcKJgjs",
+        "locationConfidence" : 0.15096533
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337447703,
+        "longitudeE7" : -1179566160,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 337244953,
+        "longitudeE7" : -1179883869,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560734192067",
+        "endTimestampMs" : "1560734822782"
+      },
+      "distance" : 5345,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.39249367516518
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.36331356744289667
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07475245332534282
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337447700,
+          "lngE7" : -1179567337
+        }, {
+          "latE7" : 337378959,
+          "lngE7" : -1179548339
+        }, {
+          "latE7" : 337351417,
+          "lngE7" : -1179548034
+        }, {
+          "latE7" : 337303085,
+          "lngE7" : -1179812088
+        }, {
+          "latE7" : 337246475,
+          "lngE7" : -1179883956
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 337351100,
+          "lngE7" : -1179543016,
+          "timestampMs" : "1560734312109",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337245436,
+        "longitudeE7" : -1179879684,
+        "placeId" : "ChIJ8fwLZFkm3YARzI9hCr3Y6oE",
+        "address" : "16422 Beach Blvd\nWestminster, CA 92683\nUSA",
+        "name" : "Pavilions Place",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.51988
+      },
+      "duration" : {
+        "startTimestampMs" : "1560734822782",
+        "endTimestampMs" : "1560735674060"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 337244588,
+          "longitudeE7" : -1179883516,
+          "placeId" : "ChIJ3xfTRVkm3YARrl7Df7_9kwY",
+          "address" : "16468 Beach Blvd\nWestminster, CA 92683\nUSA",
+          "name" : "Daiso",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 42.39131
+        },
+        "duration" : {
+          "startTimestampMs" : "1560734822782",
+          "endTimestampMs" : "1560735551833"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 337244260,
+        "centerLngE7" : -1179885096,
+        "visitConfidence" : 93,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 337241280,
+          "longitudeE7" : -1179883655,
+          "placeId" : "ChIJlY-IR1km3YARgZCwbnKEbws",
+          "locationConfidence" : 20.191952
+        }, {
+          "latitudeE7" : 337243330,
+          "longitudeE7" : -1179884620,
+          "placeId" : "ChIJd16XeTwm3YARqRJap7dZ0q0",
+          "locationConfidence" : 16.054247
+        }, {
+          "latitudeE7" : 337236927,
+          "longitudeE7" : -1179885136,
+          "placeId" : "ChIJWa8BOlkm3YARsJZMStHnraA",
+          "locationConfidence" : 10.083832
+        }, {
+          "latitudeE7" : 337242793,
+          "longitudeE7" : -1179883808,
+          "placeId" : "ChIJNRfwRlkm3YARNaNkyAxTOJY",
+          "locationConfidence" : 5.967519
+        }, {
+          "latitudeE7" : 337241868,
+          "longitudeE7" : -1179883774,
+          "placeId" : "ChIJ5ayRLVkm3YAR8fp1hWz0CDk",
+          "locationConfidence" : 1.2127888
+        }, {
+          "latitudeE7" : 337242452,
+          "longitudeE7" : -1179877514,
+          "placeId" : "ChIJ67rMcVkm3YARyyYi7K3l0O4",
+          "locationConfidence" : 0.6397394
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 337244262,
+      "centerLngE7" : -1179884675,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 337249553,
+        "longitudeE7" : -1179898631,
+        "placeId" : "ChIJpe6UqV4m3YARMNUyQ5xrg64",
+        "locationConfidence" : 1.3780717
+      }, {
+        "latitudeE7" : 337259885,
+        "longitudeE7" : -1179899596,
+        "placeId" : "ChIJDSX1Dlwm3YARH6b1GthqV0s",
+        "locationConfidence" : 0.096725054
+      }, {
+        "latitudeE7" : 337230198,
+        "longitudeE7" : -1179893205,
+        "placeId" : "ChIJMU-oq1Ym3YARc0vaZ9Oq8iw",
+        "locationConfidence" : 0.09650879
+      }, {
+        "latitudeE7" : 337241430,
+        "longitudeE7" : -1179896770,
+        "placeId" : "ChIJw8gsTVkm3YARiqBaXFPDpTE",
+        "locationConfidence" : 0.08896643
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 337242998,
+        "longitudeE7" : -1179886702,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560735674060",
+        "endTimestampMs" : "1560736783554"
+      },
+      "distance" : 16905,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.4637860817072
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.29564657199379607
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.09615710692779555
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 337242851,
+          "lngE7" : -1179886169
+        }, {
+          "latE7" : 336677360,
+          "lngE7" : -1178815460
+        }, {
+          "latE7" : 336489906,
+          "lngE7" : -1178630294
+        }, {
+          "latE7" : 336513214,
+          "lngE7" : -1178503570
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.72152
+      },
+      "duration" : {
+        "startTimestampMs" : "1560736783554",
+        "endTimestampMs" : "1560811393586"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535362,
+      "centerLngE7" : -1178393211,
+      "visitConfidence" : 86,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.0310557
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.4077917
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.272642
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.22416908
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336981784,
+        "longitudeE7" : -1178352401,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560811393586",
+        "endTimestampMs" : "1560813589138"
+      },
+      "distance" : 10287,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 82.24135459970213
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 14.38382964674522
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.657199580652106
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 337028083,
+          "lngE7" : -1178048400
+        }, {
+          "latE7" : 337076301,
+          "lngE7" : -1178064270
+        }, {
+          "latE7" : 336984214,
+          "lngE7" : -1178151168
+        }, {
+          "latE7" : 337011833,
+          "lngE7" : -1178195266
+        }, {
+          "latE7" : 337011184,
+          "lngE7" : -1178290634
+        }, {
+          "latE7" : 336982269,
+          "lngE7" : -1178351974
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 337033804,
+          "lngE7" : -1178052205,
+          "timestampMs" : "1560812861498",
+          "accuracyMeters" : 32
+        }, {
+          "latE7" : 337074705,
+          "lngE7" : -1178062969,
+          "timestampMs" : "1560812983751",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 337012745,
+          "lngE7" : -1178258044,
+          "timestampMs" : "1560813348750",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336987411,
+        "longitudeE7" : -1178349882,
+        "placeId" : "ChIJy9kfsqHe3IARVoKfcOBxg4s",
+        "address" : "16585 Von Karman Ave\nIrvine, CA 92606\nUSA",
+        "name" : "Von Karman Plaza",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 99.58062
+      },
+      "duration" : {
+        "startTimestampMs" : "1560813589138",
+        "endTimestampMs" : "1560815066632"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336987729,
+          "longitudeE7" : -1178357213,
+          "placeId" : "ChIJReoT_qDe3IARWa7Rjl5gTHI",
+          "address" : "16555 Von Karman Ave a\nIrvine, CA 92606\nUSA",
+          "name" : "Walmart Supercenter",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 77.38544
+        },
+        "duration" : {
+          "startTimestampMs" : "1560813589138",
+          "endTimestampMs" : "1560815066631"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336987263,
+        "centerLngE7" : -1178350901,
+        "visitConfidence" : 93,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336993812,
+          "longitudeE7" : -1178349689,
+          "placeId" : "ChIJkf8nEaHe3IARoTeKz7YbgyU",
+          "locationConfidence" : 0.021735527
+        }, {
+          "latitudeE7" : 336997796,
+          "longitudeE7" : -1178356322,
+          "placeId" : "ChIJG1rxGaHe3IARAOkCCB8_weo",
+          "locationConfidence" : 0.013803004
+        }, {
+          "latitudeE7" : 336993291,
+          "longitudeE7" : -1178362763,
+          "placeId" : "ChIJz0kuFqHe3IARJ_hWZklQiEk",
+          "locationConfidence" : 0.00784287
+        }, {
+          "latitudeE7" : 336990919,
+          "longitudeE7" : -1178362543,
+          "placeId" : "ChIJbSMsFqHe3IARCzxCwwuZxRw",
+          "locationConfidence" : 0.0076441616
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336985386,
+      "centerLngE7" : -1178352357,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336966351,
+        "longitudeE7" : -1178343482,
+        "placeId" : "ChIJeVykK6De3IARhdjCFoFF_3w",
+        "locationConfidence" : 0.03324083
+      }, {
+        "latitudeE7" : 336963441,
+        "longitudeE7" : -1178365787,
+        "placeId" : "ChIJ8Uch8aHe3IARwm_iuwJzOJA",
+        "locationConfidence" : 0.028317153
+      }, {
+        "latitudeE7" : 336963314,
+        "longitudeE7" : -1178366035,
+        "placeId" : "ChIJcb7bqPTe3IARq93xMifSEAQ",
+        "locationConfidence" : 0.020887472
+      }, {
+        "latitudeE7" : 336962954,
+        "longitudeE7" : -1178365921,
+        "placeId" : "ChIJwZgeGCfc3IAR6eh_yRIIaoM",
+        "locationConfidence" : 0.016154444
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336987771,
+        "longitudeE7" : -1178355460,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560815066632",
+        "endTimestampMs" : "1560815800090"
+      },
+      "distance" : 5729,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.7421954268944
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6631500679823542
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4301993484058465
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336984329,
+          "lngE7" : -1178351593
+        }, {
+          "latE7" : 336710052,
+          "lngE7" : -1178329620
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.805374
+      },
+      "duration" : {
+        "startTimestampMs" : "1560815800090",
+        "endTimestampMs" : "1560883356522"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535208,
+      "centerLngE7" : -1178392490,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.839867
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.46627402
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.35545588
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.19953568
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336652794,
+        "longitudeE7" : -1178560894,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560883356522",
+        "endTimestampMs" : "1560883969187"
+      },
+      "distance" : 2993,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.9884530509202
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6103422140974696
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3095468801175214
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336671142,
+          "lngE7" : -1178556137
+        }, {
+          "latE7" : 336655044,
+          "lngE7" : -1178585357
+        }, {
+          "latE7" : 336655883,
+          "lngE7" : -1178579330
+        }, {
+          "latE7" : 336655960,
+          "lngE7" : -1178562469
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336663068,
+          "lngE7" : -1178571671,
+          "timestampMs" : "1560883847780",
+          "accuracyMeters" : 68
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336652794,
+        "longitudeE7" : -1178560894,
+        "placeId" : "ChIJFVBSC17e3IARRwmn3GHC6Uk",
+        "address" : "4601 Jamboree Rd\nNewport Beach, CA 92660\nUSA",
+        "name" : "Harbor Justice Center Newport Beach",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.26548
+      },
+      "duration" : {
+        "startTimestampMs" : "1560883969187",
+        "endTimestampMs" : "1560885320677"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336656173,
+      "centerLngE7" : -1178559882,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336652286,
+        "longitudeE7" : -1178560293,
+        "placeId" : "ChIJn_81bl7e3IARIeFMWcYK_XY",
+        "locationConfidence" : 0.9207454
+      }, {
+        "latitudeE7" : 336644157,
+        "longitudeE7" : -1178544381,
+        "placeId" : "ChIJXSo2emfe3IARjdmyjJQKfao",
+        "locationConfidence" : 0.31214017
+      }, {
+        "latitudeE7" : 336652286,
+        "longitudeE7" : -1178560293,
+        "placeId" : "ChIJn_81bl7e3IARsqUEgBPlsQ4",
+        "locationConfidence" : 0.24011277
+      }, {
+        "latitudeE7" : 336652286,
+        "longitudeE7" : -1178560293,
+        "placeId" : "ChIJn_81bl7e3IAR8g53CJ5IdiU",
+        "locationConfidence" : 0.23820174
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336651645,
+        "longitudeE7" : -1178573142,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560885320677",
+        "endTimestampMs" : "1560885685686"
+      },
+      "distance" : 2866,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.5452608971635
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.37250149219859796
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.02541755156865519
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336651611,
+          "lngE7" : -1178573150
+        }, {
+          "latE7" : 336647644,
+          "lngE7" : -1178554382
+        }, {
+          "latE7" : 336499023,
+          "lngE7" : -1178381958
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336651645,
+          "lngE7" : -1178573142,
+          "timestampMs" : "1560885320677",
+          "accuracyMeters" : 30
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 88.24511
+      },
+      "duration" : {
+        "startTimestampMs" : "1560885685686",
+        "endTimestampMs" : "1560886183780"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336505585,
+          "longitudeE7" : -1178381177,
+          "placeId" : "ChIJJVC1tpjf3IAR33C_RgTYo38",
+          "address" : "4199 Campus Dr suite c\nIrvine, CA 92612\nUSA",
+          "name" : "Sharetea at UCI",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 34.259216
+        },
+        "duration" : {
+          "startTimestampMs" : "1560885818017",
+          "endTimestampMs" : "1560886061982"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336504276,
+        "centerLngE7" : -1178380129,
+        "visitConfidence" : 88,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336505739,
+          "longitudeE7" : -1178383071,
+          "placeId" : "ChIJ-Yd8UAze3IARznsgn-5VYvQ",
+          "locationConfidence" : 15.478278
+        }, {
+          "latitudeE7" : 336508330,
+          "longitudeE7" : -1178382180,
+          "placeId" : "ChIJWaD2Zgze3IARaOoQlQaU7wY",
+          "locationConfidence" : 8.733195
+        }, {
+          "latitudeE7" : 336503104,
+          "longitudeE7" : -1178381488,
+          "placeId" : "ChIJoQdCQwze3IARbej6n9Cf_TM",
+          "locationConfidence" : 6.8907146
+        }, {
+          "latitudeE7" : 336505536,
+          "longitudeE7" : -1178378853,
+          "placeId" : "ChIJ24f3bgze3IARAiuiNd1rABA",
+          "locationConfidence" : 4.8392606
+        }, {
+          "latitudeE7" : 336509100,
+          "longitudeE7" : -1178383320,
+          "placeId" : "ChIJWaD2Zgze3IARv1R1f_ev_YU",
+          "locationConfidence" : 3.9587057
+        }, {
+          "latitudeE7" : 336504231,
+          "longitudeE7" : -1178378742,
+          "placeId" : "ChIJE2EtbQze3IARR2eumB6YXuY",
+          "locationConfidence" : 3.9342198
+        }, {
+          "latitudeE7" : 336504139,
+          "longitudeE7" : -1178378049,
+          "placeId" : "ChIJ1YSieubf3IARKtS0bWUrD_4",
+          "locationConfidence" : 3.5198507
+        }, {
+          "latitudeE7" : 336507888,
+          "longitudeE7" : -1178383109,
+          "placeId" : "ChIJWaD2Zgze3IARQputAQpYEDw",
+          "locationConfidence" : 2.1829803
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336504180,
+      "centerLngE7" : -1178377530,
+      "visitConfidence" : 88,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 4.418399
+      }, {
+        "latitudeE7" : 336519497,
+        "longitudeE7" : -1178374723,
+        "placeId" : "ChIJ32rP0mvf3IARj0dEqRhAXLM",
+        "locationConfidence" : 2.5059896
+      }, {
+        "latitudeE7" : 336492844,
+        "longitudeE7" : -1178395821,
+        "placeId" : "ChIJpXSNMwze3IAR3bJhOETyXOI",
+        "locationConfidence" : 0.79756355
+      }, {
+        "latitudeE7" : 336519428,
+        "longitudeE7" : -1178374849,
+        "placeId" : "ChIJu7fLWgne3IARLbYpT2fGGr4",
+        "locationConfidence" : 0.52499217
+      }, {
+        "latitudeE7" : 336491481,
+        "longitudeE7" : -1178399432,
+        "placeId" : "ChIJ2_eTMgze3IARh5y0LOEdB7g",
+        "locationConfidence" : 0.45487756
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336503253,
+        "longitudeE7" : -1178378515,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1560886183780",
+        "endTimestampMs" : "1560886436045"
+      },
+      "distance" : 440,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 60.88470466900604
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 30.0221940566893
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 7.147169684874891
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336502304,
+          "lngE7" : -1178378448
+        }, {
+          "latE7" : 336518287,
+          "lngE7" : -1178396453
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336522439,
+          "lngE7" : -1178399370,
+          "timestampMs" : "1560886313911",
+          "accuracyMeters" : 30
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 96.62421
+      },
+      "duration" : {
+        "startTimestampMs" : "1560886436045",
+        "endTimestampMs" : "1561073665869"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535278,
+      "centerLngE7" : -1178392850,
+      "visitConfidence" : 84,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.6392972
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.53028333
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.5100467
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.25767583
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 95.90505
+      },
+      "duration" : {
+        "startTimestampMs" : "1561321702427",
+        "endTimestampMs" : "1561346850774"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535265,
+      "centerLngE7" : -1178393183,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 2.0228798
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.697133
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.6785153
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.20554374
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336978431,
+        "longitudeE7" : -1178277440,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561346850774",
+        "endTimestampMs" : "1561347715453"
+      },
+      "distance" : 5409,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.80319785027588
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6876227233023563
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.19432105261800325
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336716880,
+          "lngE7" : -1178322296
+        }, {
+          "latE7" : 336881217,
+          "lngE7" : -1178307876
+        }, {
+          "latE7" : 336987075,
+          "lngE7" : -1178330307
+        }, {
+          "latE7" : 336975784,
+          "lngE7" : -1178272933
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336881423,
+          "lngE7" : -1178308110,
+          "timestampMs" : "1561347536014",
+          "accuracyMeters" : 29
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336982400,
+        "longitudeE7" : -1178280496,
+        "placeId" : "ChIJ9xBhfR_c3IARMaa_FvKf2e8",
+        "address" : "2437 Park Ave\nTustin, CA 92782\nUSA",
+        "name" : "The District at Tustin Legacy",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 99.34448
+      },
+      "duration" : {
+        "startTimestampMs" : "1561347715453",
+        "endTimestampMs" : "1561352011080"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336977150,
+          "longitudeE7" : -1178281190,
+          "placeId" : "ChIJsdQH3B7c3IARfulEpGctkXQ",
+          "address" : "2427 Park Ave\nTustin, CA 92782\nUSA",
+          "name" : "Five Guys",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 75.26238
+        },
+        "duration" : {
+          "startTimestampMs" : "1561348201034",
+          "endTimestampMs" : "1561351504121"
+        },
+        "placeConfidence" : "HIGH_CONFIDENCE",
+        "centerLatE7" : 336977544,
+        "centerLngE7" : -1178280333,
+        "visitConfidence" : 93,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336978499,
+          "longitudeE7" : -1178282069,
+          "placeId" : "ChIJ3zvIgR_c3IARsuWe_fNanFI",
+          "locationConfidence" : 7.0394106
+        }, {
+          "latitudeE7" : 336975910,
+          "longitudeE7" : -1178282112,
+          "placeId" : "ChIJLfO4dh_c3IAR2CxLo2j8oOg",
+          "locationConfidence" : 1.8579241
+        }, {
+          "latitudeE7" : 336975539,
+          "longitudeE7" : -1178279370,
+          "placeId" : "ChIJlXEfZx_c3IARu1gd1LPIh-E",
+          "locationConfidence" : 1.7488216
+        }, {
+          "latitudeE7" : 336978880,
+          "longitudeE7" : -1178282730,
+          "placeId" : "ChIJi7pAMvjd3IARZ-ZdSJzxUGI",
+          "locationConfidence" : 1.6967777
+        }, {
+          "latitudeE7" : 336977312,
+          "longitudeE7" : -1178267997,
+          "placeId" : "ChIJQ_A_KiDc3IARw0J4e2nEmEY",
+          "locationConfidence" : 1.3799367
+        }, {
+          "latitudeE7" : 336978018,
+          "longitudeE7" : -1178274904,
+          "placeId" : "ChIJnYJOfR_c3IARVPUSS-XJzDo",
+          "locationConfidence" : 1.320091
+        }, {
+          "latitudeE7" : 336916173,
+          "longitudeE7" : -1178588905,
+          "placeId" : "ChIJc70l2CHc3IARUtTmVXEyy6c",
+          "locationConfidence" : 1.1542631
+        }, {
+          "latitudeE7" : 336975149,
+          "longitudeE7" : -1178280587,
+          "placeId" : "ChIJyWms1SHc3IARRSTQfxBYTjM",
+          "locationConfidence" : 1.035648
+        }, {
+          "latitudeE7" : 336979057,
+          "longitudeE7" : -1178284132,
+          "placeId" : "ChIJR2fpKSDc3IARkfATvNHyRtk",
+          "locationConfidence" : 0.87355757
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336977328,
+      "centerLngE7" : -1178280114,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336977426,
+        "longitudeE7" : -1178281603,
+        "placeId" : "ChIJs3SXfx_c3IAReS4bqEeaK00",
+        "locationConfidence" : 0.3222402
+      }, {
+        "latitudeE7" : 336977117,
+        "longitudeE7" : -1178281290,
+        "placeId" : "ChIJTTpGcB_c3IARrK94qXBG1xI",
+        "locationConfidence" : 0.26747295
+      }, {
+        "latitudeE7" : 336979633,
+        "longitudeE7" : -1178278146,
+        "placeId" : "ChIJ6dCmRZfd3IARbSRcQVJfHso",
+        "locationConfidence" : 0.052634165
+      }, {
+        "latitudeE7" : 336956360,
+        "longitudeE7" : -1178300430,
+        "placeId" : "ChIJq4uHayDc3IARROeKBsfChOM",
+        "locationConfidence" : 0.004631317
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336978773,
+        "longitudeE7" : -1178272590,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561352011080",
+        "endTimestampMs" : "1561352508722"
+      },
+      "distance" : 5132,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.91594131636782
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.864541037113612
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.08219599510968809
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336978149,
+          "lngE7" : -1178271102
+        }, {
+          "latE7" : 336774024,
+          "lngE7" : -1178313827
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.636734
+      },
+      "duration" : {
+        "startTimestampMs" : "1561352508722",
+        "endTimestampMs" : "1561394721632"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535747,
+      "centerLngE7" : -1178392741,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.8216249
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.6571494
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.3643378
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.17788546
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561394721632",
+        "endTimestampMs" : "1561395968527"
+      },
+      "distance" : 1662,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.04511718339204
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3048536135743998
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.24206290397596275
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336500549,
+          "lngE7" : -1178427886
+        }, {
+          "latE7" : 336399421,
+          "lngE7" : -1178437194
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336502327,
+          "lngE7" : -1178433539,
+          "timestampMs" : "1561395349307",
+          "accuracyMeters" : 46
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 81.26839
+      },
+      "duration" : {
+        "startTimestampMs" : "1561395968527",
+        "endTimestampMs" : "1561402124860"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336434045,
+          "longitudeE7" : -1178435236,
+          "placeId" : "ChIJab80GBDe3IARLR1b8E5VZoI",
+          "address" : "Ring Rd\nIrvine, CA 92617\nUSA",
+          "name" : "Physical Sciences Classroom Building (PSCB)",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 76.26755
+        },
+        "duration" : {
+          "startTimestampMs" : "1561395968527",
+          "endTimestampMs" : "1561402124860"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336435385,
+        "centerLngE7" : -1178434862,
+        "visitConfidence" : 92,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "locationConfidence" : 2.4334612
+        }, {
+          "latitudeE7" : 336444658,
+          "longitudeE7" : -1178442357,
+          "placeId" : "ChIJM9j_SRDe3IARbpw4a9H8HCg",
+          "locationConfidence" : 0.37397566
+        }, {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "locationConfidence" : 0.30367488
+        }, {
+          "latitudeE7" : 336434162,
+          "longitudeE7" : -1178420588,
+          "placeId" : "ChIJY7ae7w_e3IARhSRttztgZoM",
+          "locationConfidence" : 0.14268251
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336435385,
+      "centerLngE7" : -1178434862,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336434083,
+        "longitudeE7" : -1178434937,
+        "placeId" : "ChIJQ5e2GRDe3IAR90JV9nf_ZSM",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 15.75138
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.4363102
+      }, {
+        "latitudeE7" : 336440861,
+        "longitudeE7" : -1178434693,
+        "placeId" : "ChIJyQ3SJRDe3IARiXW5NMURovo",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.57408214
+      }, {
+        "latitudeE7" : 336469841,
+        "longitudeE7" : -1178445511,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "locationConfidence" : 0.43735692
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336440273,
+        "longitudeE7" : -1178437032,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561402124860",
+        "endTimestampMs" : "1561403357955"
+      },
+      "distance" : 1447,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.0237793370994
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.8713641475021217
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.42287566206222293
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336441459,
+          "lngE7" : -1178439559
+        }, {
+          "latE7" : 336447486,
+          "lngE7" : -1178421707
+        }, {
+          "latE7" : 336447868,
+          "lngE7" : -1178420333
+        }, {
+          "latE7" : 336452369,
+          "lngE7" : -1178413925
+        }, {
+          "latE7" : 336476593,
+          "lngE7" : -1178415374
+        }, {
+          "latE7" : 336492080,
+          "lngE7" : -1178397827
+        }, {
+          "latE7" : 336498565,
+          "lngE7" : -1178392181
+        }, {
+          "latE7" : 336500396,
+          "lngE7" : -1178390579
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336447999,
+          "lngE7" : -1178420311,
+          "timestampMs" : "1561402371871",
+          "accuracyMeters" : 97
+        }, {
+          "latE7" : 336476964,
+          "lngE7" : -1178415950,
+          "timestampMs" : "1561402494526",
+          "accuracyMeters" : 26
+        }, {
+          "latE7" : 336496796,
+          "lngE7" : -1178391990,
+          "timestampMs" : "1561402738023",
+          "accuracyMeters" : 36
+        }, {
+          "latE7" : 336505555,
+          "lngE7" : -1178381212,
+          "timestampMs" : "1561402872084",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 336505614,
+          "lngE7" : -1178381157,
+          "timestampMs" : "1561402994115",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 336516512,
+          "lngE7" : -1178391574,
+          "timestampMs" : "1561403114772",
+          "accuracyMeters" : 76
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.77706
+      },
+      "duration" : {
+        "startTimestampMs" : "1561403357955",
+        "endTimestampMs" : "1561663970984"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535191,
+      "centerLngE7" : -1178393242,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.8714369
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.5307219
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.34152994
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.18160284
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336529739,
+        "longitudeE7" : -1178400153,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336420416,
+        "longitudeE7" : -1178444257,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561663970984",
+        "endTimestampMs" : "1561664940287"
+      },
+      "distance" : 1392,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.41252523570695
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.987286549205537
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.22643190529141832
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336529922,
+          "lngE7" : -1178400344
+        }, {
+          "latE7" : 336499328,
+          "lngE7" : -1178429794
+        }, {
+          "latE7" : 336472053,
+          "lngE7" : -1178435287
+        }, {
+          "latE7" : 336429061,
+          "lngE7" : -1178448257
+        }, {
+          "latE7" : 336416816,
+          "lngE7" : -1178443450
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336500248,
+          "lngE7" : -1178431965,
+          "timestampMs" : "1561664332846",
+          "accuracyMeters" : 31
+        }, {
+          "latE7" : 336475908,
+          "lngE7" : -1178434622,
+          "timestampMs" : "1561664454807",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 336440032,
+          "lngE7" : -1178438047,
+          "timestampMs" : "1561664821922",
+          "accuracyMeters" : 29
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336420416,
+        "longitudeE7" : -1178444257,
+        "placeId" : "ChIJPynenxre3IARIx4uLBoO_Gw",
+        "address" : "Multipurpose Science and Technology Building\n415 E Peltason Dr\nIrvine, CA 92617\nUSA",
+        "name" : "Multipurpose Science and Technology Building",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 80.88748
+      },
+      "duration" : {
+        "startTimestampMs" : "1561664940287",
+        "endTimestampMs" : "1561673359302"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336421118,
+      "centerLngE7" : -1178446773,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 17.118433
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.4727131
+      }, {
+        "latitudeE7" : 336434083,
+        "longitudeE7" : -1178434937,
+        "placeId" : "ChIJQ5e2GRDe3IAR90JV9nf_ZSM",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.428927
+      }, {
+        "latitudeE7" : 336444762,
+        "longitudeE7" : -1178440629,
+        "placeId" : "ChIJmY4_NBDe3IAReB_kHbjtBFk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.053570617
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336420416,
+        "longitudeE7" : -1178444257,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561673359302",
+        "endTimestampMs" : "1561676896920"
+      },
+      "distance" : 1528,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.5875850994359
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.2563499880958156
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3659235127767722
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336416816,
+          "lngE7" : -1178443450
+        }, {
+          "latE7" : 336429061,
+          "lngE7" : -1178448257
+        }, {
+          "latE7" : 336445350,
+          "lngE7" : -1178436889
+        }, {
+          "latE7" : 336458015,
+          "lngE7" : -1178432693
+        }, {
+          "latE7" : 336477508,
+          "lngE7" : -1178410797
+        }, {
+          "latE7" : 336478271,
+          "lngE7" : -1178410110
+        }, {
+          "latE7" : 336494750,
+          "lngE7" : -1178395156
+        }, {
+          "latE7" : 336500396,
+          "lngE7" : -1178390579
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336434376,
+          "lngE7" : -1178447338,
+          "timestampMs" : "1561675650360",
+          "accuracyMeters" : 39
+        }, {
+          "latE7" : 336444516,
+          "lngE7" : -1178435083,
+          "timestampMs" : "1561675773717",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 336450067,
+          "lngE7" : -1178423567,
+          "timestampMs" : "1561675908738",
+          "accuracyMeters" : 100
+        }, {
+          "latE7" : 336477723,
+          "lngE7" : -1178411183,
+          "timestampMs" : "1561676163934",
+          "accuracyMeters" : 22
+        }, {
+          "latE7" : 336485389,
+          "lngE7" : -1178405038,
+          "timestampMs" : "1561676290900",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 336495976,
+          "lngE7" : -1178397464,
+          "timestampMs" : "1561676411852",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 336498927,
+          "lngE7" : -1178396404,
+          "timestampMs" : "1561676533008",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.88484
+      },
+      "duration" : {
+        "startTimestampMs" : "1561676896920",
+        "endTimestampMs" : "1561750517554"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535232,
+      "centerLngE7" : -1178392836,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.8435629
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.4870404
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.3254551
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.17017005
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534821,
+        "longitudeE7" : -1178392834,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561750517554",
+        "endTimestampMs" : "1561751274021"
+      },
+      "distance" : 1793,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.7797158614789
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3373775693122092
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.3551740039875256
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535110,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336510734,
+          "lngE7" : -1178419265
+        }, {
+          "latE7" : 336499443,
+          "lngE7" : -1178435592
+        }, {
+          "latE7" : 336496810,
+          "lngE7" : -1178428955
+        }, {
+          "latE7" : 336488113,
+          "lngE7" : -1178430404
+        }, {
+          "latE7" : 336472816,
+          "lngE7" : -1178428497
+        }, {
+          "latE7" : 336399421,
+          "lngE7" : -1178437194
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336517255,
+          "lngE7" : -1178410908,
+          "timestampMs" : "1561750773113",
+          "accuracyMeters" : 42
+        }, {
+          "latE7" : 336501638,
+          "lngE7" : -1178435638,
+          "timestampMs" : "1561750908450",
+          "accuracyMeters" : 32
+        }, {
+          "latE7" : 336488754,
+          "lngE7" : -1178428323,
+          "timestampMs" : "1561751030955",
+          "accuracyMeters" : 30
+        }, {
+          "latE7" : 336466191,
+          "lngE7" : -1178433056,
+          "timestampMs" : "1561751151831",
+          "accuracyMeters" : 81
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "address" : "Irvine, CA 92697\nUSA",
+        "name" : "University of California Irvine",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 84.16151
+      },
+      "duration" : {
+        "startTimestampMs" : "1561751274021",
+        "endTimestampMs" : "1561755335168"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336442787,
+          "longitudeE7" : -1178418204,
+          "placeId" : "ChIJt1gUxw_e3IARX551wp9J7KA",
+          "address" : "Inner Ring Rd\nIrvine, CA 92697\nUSA",
+          "name" : "Information and Computer Science I (ICS 1)",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 81.27444
+        },
+        "duration" : {
+          "startTimestampMs" : "1561751274021",
+          "endTimestampMs" : "1561755335168"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336444561,
+        "centerLngE7" : -1178416472,
+        "visitConfidence" : 96,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336444272,
+          "longitudeE7" : -1178407395,
+          "placeId" : "ChIJzW3cvA_e3IARM3dvomowDEc",
+          "locationConfidence" : 0.5135206
+        }, {
+          "latitudeE7" : 336433990,
+          "longitudeE7" : -1178439605,
+          "placeId" : "ChIJ_egJFhDe3IARsu3QjYZyonY",
+          "locationConfidence" : 0.22648405
+        }, {
+          "latitudeE7" : 336434162,
+          "longitudeE7" : -1178420588,
+          "placeId" : "ChIJY7ae7w_e3IARhSRttztgZoM",
+          "locationConfidence" : 0.1555435
+        }, {
+          "latitudeE7" : 336435829,
+          "longitudeE7" : -1178414218,
+          "placeId" : "ChIJQSYq7Q_e3IARVTgQwa53Lp8",
+          "locationConfidence" : 0.12326535
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336444561,
+      "centerLngE7" : -1178416472,
+      "visitConfidence" : 96,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336442606,
+        "longitudeE7" : -1178418120,
+        "placeId" : "ChIJx937ww_e3IARAgJUK5agMLc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 13.263288
+      }, {
+        "latitudeE7" : 336432319,
+        "longitudeE7" : -1178418932,
+        "placeId" : "ChIJFXy48Q_e3IAR3RYBcADHOLk",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.3501015
+      }, {
+        "latitudeE7" : 336439909,
+        "longitudeE7" : -1178416258,
+        "placeId" : "ChIJfxD9wQ_e3IARPAAJrpNPr8M",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.3713139
+      }, {
+        "latitudeE7" : 336469841,
+        "longitudeE7" : -1178445511,
+        "placeId" : "ChIJNYsbeRHe3IAR-LtoF5ymKSo",
+        "locationConfidence" : 0.27354532
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336450971,
+        "longitudeE7" : -1178410803,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561755335168",
+        "endTimestampMs" : "1561755706948"
+      },
+      "distance" : 666,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.43520030091548
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.9779239710101875
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.9181105306003438
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336450767,
+          "lngE7" : -1178411178
+        }, {
+          "latE7" : 336484718,
+          "lngE7" : -1178401794
+        }, {
+          "latE7" : 336499328,
+          "lngE7" : -1178390121
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336483584,
+          "lngE7" : -1178406298,
+          "timestampMs" : "1561755457061",
+          "accuracyMeters" : 100
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "address" : "4100 - 4255 Campus Dr\nIrvine, CA 92612\nUSA",
+        "name" : "University Center",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.77419
+      },
+      "duration" : {
+        "startTimestampMs" : "1561755706948",
+        "endTimestampMs" : "1561756317737"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336505585,
+          "longitudeE7" : -1178381177,
+          "placeId" : "ChIJJVC1tpjf3IAR33C_RgTYo38",
+          "address" : "4199 Campus Dr suite c\nIrvine, CA 92612\nUSA",
+          "name" : "Sharetea at UCI",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 24.561104
+        },
+        "duration" : {
+          "startTimestampMs" : "1561755830010",
+          "endTimestampMs" : "1561756074105"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336505483,
+        "centerLngE7" : -1178381080,
+        "visitConfidence" : 87,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336505739,
+          "longitudeE7" : -1178383071,
+          "placeId" : "ChIJ-Yd8UAze3IARznsgn-5VYvQ",
+          "locationConfidence" : 10.53879
+        }, {
+          "latitudeE7" : 336503104,
+          "longitudeE7" : -1178381488,
+          "placeId" : "ChIJoQdCQwze3IARbej6n9Cf_TM",
+          "locationConfidence" : 8.57334
+        }, {
+          "latitudeE7" : 336508330,
+          "longitudeE7" : -1178382180,
+          "placeId" : "ChIJWaD2Zgze3IARaOoQlQaU7wY",
+          "locationConfidence" : 8.55677
+        }, {
+          "latitudeE7" : 336504231,
+          "longitudeE7" : -1178378742,
+          "placeId" : "ChIJE2EtbQze3IARR2eumB6YXuY",
+          "locationConfidence" : 8.268463
+        }, {
+          "latitudeE7" : 336509100,
+          "longitudeE7" : -1178383320,
+          "placeId" : "ChIJWaD2Zgze3IARv1R1f_ev_YU",
+          "locationConfidence" : 7.976896
+        }, {
+          "latitudeE7" : 336505536,
+          "longitudeE7" : -1178378853,
+          "placeId" : "ChIJ24f3bgze3IARAiuiNd1rABA",
+          "locationConfidence" : 6.576364
+        }, {
+          "latitudeE7" : 336499585,
+          "longitudeE7" : -1178383807,
+          "placeId" : "ChIJbYzyagze3IARoovf_npRLDo",
+          "locationConfidence" : 5.6054697
+        }, {
+          "latitudeE7" : 336504139,
+          "longitudeE7" : -1178378049,
+          "placeId" : "ChIJ1YSieubf3IARKtS0bWUrD_4",
+          "locationConfidence" : 5.4936113
+        }, {
+          "latitudeE7" : 336507888,
+          "longitudeE7" : -1178383109,
+          "placeId" : "ChIJWaD2Zgze3IARQputAQpYEDw",
+          "locationConfidence" : 5.3433084
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336505111,
+      "centerLngE7" : -1178383144,
+      "visitConfidence" : 87,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336519497,
+        "longitudeE7" : -1178374723,
+        "placeId" : "ChIJ32rP0mvf3IARj0dEqRhAXLM",
+        "locationConfidence" : 0.6398742
+      }, {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.526283
+      }, {
+        "latitudeE7" : 336492844,
+        "longitudeE7" : -1178395821,
+        "placeId" : "ChIJpXSNMwze3IAR3bJhOETyXOI",
+        "locationConfidence" : 0.26401863
+      }, {
+        "latitudeE7" : 336519428,
+        "longitudeE7" : -1178374849,
+        "placeId" : "ChIJX5Qa6wze3IARrGUxz3RYv9c",
+        "locationConfidence" : 0.12466113
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561756317737",
+        "endTimestampMs" : "1561756438944"
+      },
+      "distance" : 378,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 63.04604375117214
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 29.10579552099783
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.862770130217303
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336501998,
+          "lngE7" : -1178390426
+        }, {
+          "latE7" : 336516036,
+          "lngE7" : -1178392562
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336517702,
+          "lngE7" : -1178388683,
+          "timestampMs" : "1561756317738",
+          "accuracyMeters" : 50
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 90.63122
+      },
+      "duration" : {
+        "startTimestampMs" : "1561756438944",
+        "endTimestampMs" : "1561758152611"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 336533260,
+      "centerLngE7" : -1178393700,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 3.1014974
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 2.9320881
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.6789348
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.677314
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336538814,
+        "longitudeE7" : -1178396354,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336961129,
+        "longitudeE7" : -1177985022,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561758152611",
+        "endTimestampMs" : "1561759138419"
+      },
+      "distance" : 6440,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.02920633437336
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5753648701117772
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2317052586733378
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336538696,
+          "lngE7" : -1178395843
+        }, {
+          "latE7" : 336887702,
+          "lngE7" : -1178034820
+        }, {
+          "latE7" : 336960372,
+          "lngE7" : -1177980041
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336961129,
+        "longitudeE7" : -1177985022,
+        "placeId" : "ChIJm1pqCEXc3IAREO0DOTZ8WM0",
+        "address" : "15275 - 15459\nCulver Dr\nIrvine, CA 92604\nUSA",
+        "name" : "Culver Plaza",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 99.716255
+      },
+      "duration" : {
+        "startTimestampMs" : "1561759138419",
+        "endTimestampMs" : "1561762190359"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 336963683,
+          "longitudeE7" : -1177982706,
+          "placeId" : "ChIJwZK1CEXc3IARACsVbn44bjU",
+          "address" : "Irvine I - Culver Culver Plaza\n15333 Culver Dr Suite #800\nIrvine, CA 92604\nUSA",
+          "name" : "99 Ranch Market, Irvine",
+          "sourceInfo" : {
+            "deviceTag" : -824646953
+          },
+          "locationConfidence" : 29.361584
+        },
+        "duration" : {
+          "startTimestampMs" : "1561759260525",
+          "endTimestampMs" : "1561762068615"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 336965600,
+        "centerLngE7" : -1177982905,
+        "visitConfidence" : 94,
+        "otherCandidateLocations" : [ {
+          "latitudeE7" : 336972998,
+          "longitudeE7" : -1177979227,
+          "placeId" : "ChIJvXc34kTc3IAR-iB-lqXMTk0",
+          "locationConfidence" : 18.242172
+        }, {
+          "latitudeE7" : 336964072,
+          "longitudeE7" : -1177981277,
+          "placeId" : "ChIJ21ZOdUXc3IARoRawRNDuwvE",
+          "locationConfidence" : 15.449585
+        }, {
+          "latitudeE7" : 336967631,
+          "longitudeE7" : -1177983028,
+          "placeId" : "ChIJs2Lkp0Xc3IARlnotc2ctYc0",
+          "locationConfidence" : 9.680225
+        }, {
+          "latitudeE7" : 336966902,
+          "longitudeE7" : -1177987006,
+          "placeId" : "ChIJjRUFarwrw4ARvTtDhd9Ob3U",
+          "locationConfidence" : 6.676126
+        }, {
+          "latitudeE7" : 336965494,
+          "longitudeE7" : -1177981333,
+          "placeId" : "ChIJI9VrCUXc3IARE2RkYG2s6ws",
+          "locationConfidence" : 0.7224111
+        } ],
+        "editConfirmationStatus" : "NOT_CONFIRMED"
+      } ],
+      "centerLatE7" : 336965358,
+      "centerLngE7" : -1177981948,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336914071,
+        "longitudeE7" : -1178597082,
+        "placeId" : "ChIJ78dKFEbc3IARzX6-nWhptts",
+        "locationConfidence" : 0.06437504
+      }, {
+        "latitudeE7" : 336959237,
+        "longitudeE7" : -1177967689,
+        "placeId" : "ChIJY4vbRUXc3IAREI7K6QbEm_s",
+        "locationConfidence" : 0.059483767
+      }, {
+        "latitudeE7" : 336945632,
+        "longitudeE7" : -1177957585,
+        "placeId" : "ChIJC3fsAlDc3IAR-FDysRSS0f0",
+        "locationConfidence" : 0.034968726
+      }, {
+        "latitudeE7" : 336942500,
+        "longitudeE7" : -1177995400,
+        "placeId" : "ChIJWUBefU_c3IARv8x8AcQnEns",
+        "locationConfidence" : 0.029293388
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336965330,
+        "longitudeE7" : -1177970068,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336535869,
+        "longitudeE7" : -1178393130,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561762190359",
+        "endTimestampMs" : "1561763200108"
+      },
+      "distance" : 6822,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.92529872178206
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.7105285105316502
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.17885295685453917
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336965560,
+          "lngE7" : -1177969818
+        }, {
+          "latE7" : 336887626,
+          "lngE7" : -1178037109
+        }, {
+          "latE7" : 336535491,
+          "lngE7" : -1178394165
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 95.993774
+      },
+      "duration" : {
+        "startTimestampMs" : "1561763200108",
+        "endTimestampMs" : "1561784083723"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535534,
+      "centerLngE7" : -1178392963,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 1.7260313
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.8269712
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.7166726
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.26007682
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336534882,
+        "longitudeE7" : -1178392258,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336291747,
+        "longitudeE7" : -1179085417,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561784083723",
+        "endTimestampMs" : "1561784939107"
+      },
+      "distance" : 9570,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 93.37310435242088
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 4.835306665799537
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.3072745390058378
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        }, {
+          "latE7" : 336553344,
+          "lngE7" : -1178451232
+        }, {
+          "latE7" : 336708984,
+          "lngE7" : -1178623886
+        }, {
+          "latE7" : 336388282,
+          "lngE7" : -1178983459
+        }, {
+          "latE7" : 336290588,
+          "lngE7" : -1179085998
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336369581,
+          "lngE7" : -1179002658,
+          "timestampMs" : "1561784816574",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336291747,
+        "longitudeE7" : -1179085417,
+        "placeId" : "ChIJcwrk3u7f3IARC9BFtRkrFtY",
+        "address" : "488 E 17th St b102\nCosta Mesa, CA 92627\nUSA",
+        "name" : "Nguyen's Kitchen",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.51159
+      },
+      "duration" : {
+        "startTimestampMs" : "1561784939107",
+        "endTimestampMs" : "1561787314085"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336290670,
+      "centerLngE7" : -1179086560,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336282080,
+        "longitudeE7" : -1179062980,
+        "placeId" : "ChIJ04iKzujf3IAR_WizZi5a0OU",
+        "locationConfidence" : 0.6641741
+      }, {
+        "latitudeE7" : 336291795,
+        "longitudeE7" : -1179086648,
+        "placeId" : "ChIJE2eZ3-7f3IARIpgUpJPIfmA",
+        "locationConfidence" : 0.38568342
+      }, {
+        "latitudeE7" : 336291050,
+        "longitudeE7" : -1179087310,
+        "placeId" : "ChIJ-dTM3-7f3IARWAhfGWnExhY",
+        "locationConfidence" : 0.18783279
+      }, {
+        "latitudeE7" : 336290770,
+        "longitudeE7" : -1179083928,
+        "placeId" : "ChIJAWWf3-7f3IARaRw27WsQy3g",
+        "locationConfidence" : 0.17404762
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 336290421,
+        "longitudeE7" : -1179085948,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 336536115,
+        "longitudeE7" : -1178391301,
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1561787314085",
+        "endTimestampMs" : "1561788175101"
+      },
+      "distance" : 9319,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.11425768862468
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5225266958469287
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.13740400051990867
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336290588,
+          "lngE7" : -1179085998
+        }, {
+          "latE7" : 336378898,
+          "lngE7" : -1178990859
+        }, {
+          "latE7" : 336691055,
+          "lngE7" : -1178586730
+        }, {
+          "latE7" : 336552009,
+          "lngE7" : -1178451385
+        }, {
+          "latE7" : 336535148,
+          "lngE7" : -1178394088
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 336357621,
+          "lngE7" : -1179015724,
+          "timestampMs" : "1561787434915",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 336533513,
+          "lngE7" : -1178423877,
+          "timestampMs" : "1561787930180",
+          "accuracyMeters" : 53
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 336532819,
+        "longitudeE7" : -1178395018,
+        "placeId" : "ChIJIeXl0wze3IAR5YKtYx7cO0c",
+        "address" : "758 Stanford Ct\nIrvine, CA 92612\nUSA",
+        "name" : "758 Stanford Ct",
+        "sourceInfo" : {
+          "deviceTag" : -824646953
+        },
+        "locationConfidence" : 97.76575
+      },
+      "duration" : {
+        "startTimestampMs" : "1561788175101",
+        "endTimestampMs" : "1561996923646"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 336535224,
+      "centerLngE7" : -1178392392,
+      "visitConfidence" : 91,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 336404952,
+        "longitudeE7" : -1178442962,
+        "placeId" : "ChIJkb-SJQ7e3IAR7LfattDF-3k",
+        "locationConfidence" : 0.78580177
+      }, {
+        "latitudeE7" : 336527183,
+        "longitudeE7" : -1178404640,
+        "placeId" : "ChIJmZISLw3e3IARrK_zQZpuofg",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.48122507
+      }, {
+        "latitudeE7" : 336501129,
+        "longitudeE7" : -1178386814,
+        "placeId" : "ChIJeaMmOgze3IAROEIvWk6_vbw",
+        "locationConfidence" : 0.38962054
+      }, {
+        "latitudeE7" : 336533300,
+        "longitudeE7" : -1178383600,
+        "placeId" : "ChIJhSG3twze3IARw0AMo_hA5RY",
+        "locationConfidence" : 0.21479803
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

@@ -1,0 +1,22 @@
+for each place:
+  check if this place already belongs to a cluster
+  check if this place fits the criteria of any cluster
+    check(if all the attributes meet)
+  search its nearby places by its own types:
+    each type has a list
+    if that list contains many visited places:
+      find a cluster, add all the places to the cluster
+      update cluster info (distance_to_home, distance_to_school etc)
+      type -> dominant
+      frequency -> sum up
+
+
+
+cluster attributes:
+  distance_to_home = close/not close
+  distance_to_school = close/not close
+  center lat,long
+  each place's average distance to center lat,long
+  type = domi
+    if dominant: has a dominant_type
+  frequency = frequent/not
