@@ -1,7 +1,5 @@
 from yelpapi import YelpAPI
 
-MY_API_KEY = "FbKZx1LLNWeh6Rn6Me-DirtFFfxgHwPMoFQL3oblUA2qiOPC_FA_UG-plu9BQCb5txBAcIRiZEPP7Yhg1xjdEYVQfbVBrewwbK-GsQk2RW1XpEp4yCGbFaqq_cRMXnYx" #  Replace this with your real API key
-
 yelp_api = YelpAPI(MY_API_KEY)
 
 def get_alias_from_name_and_address(name,address):
